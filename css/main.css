@@ -190,7 +190,17 @@ a:hover {
 @media (max-width: 600px) {
   .name {
     font-size: 30px;
-    letter-spacing: 0.2em; } }
+    letter-spacing: 0.2em; }
+
+  a {
+    color: white;
+    margin: 12px;
+    font-size: 20px;
+    -webkit-transition: all 0.1s ease-in;
+    opacity: 0.4;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none; } }
 @media (max-width: 400px) {
   .name {
     margin-top: 20px;
@@ -208,7 +218,17 @@ a:hover {
     width: 200px;
     height: 200px;
     margin-left: -100px;
-    margin-top: -100px; } }
+    margin-top: -100px; }
+
+  a {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    -webkit-transition: all 0.1s ease-in;
+    opacity: 0.4;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none; } }
 html, body, div, h1, h2, h3, h4, h5, h6, p, img, ul, li, footer {
   margin: 0;
   padding: 0;
