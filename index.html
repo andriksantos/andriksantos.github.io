@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Copyright&copy; 2017 Page created by -Andrick Santos- All rights reserved">
-  <meta name="description" content="Personal Web Site of Andrick Santos">
-  <title>Andrick Santos</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-  <link rel="icon" href="img/as.png" type="image/icon">
-  <link rel="stylesheet" media="screen" href="css/main.css">
-  <link rel="stylesheet" href="css/fonts.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+
+	<title>Andrick Santos</title>
+	<meta name="description" content="Diseñador Web y Desarrollador especializado en programación Front-End | Back-End">
+	<meta name="author" content="Copyright&copy; 2017 Page created by -Andrick Santos- All rights reserved">
+
+	<!-- URL CANONICAL -->
+	<link rel="canonical" href="https://andricksantos.github.io/">
+
+	<link rel="icon" href="img/as.png" type="image/icon">
+	<link rel="stylesheet" media="screen" href="css/main.css">
+	<link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
 
@@ -43,15 +48,28 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103804510-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	  gtag('config', 'UA-103804510-1');
+		gtag('config', 'UA-103804510-1');
 	</script>
-
 	<script type="text/javascript">
 		document.oncontextmenu = function(){return false;}
+		</script>  
+		<script language="Javascript">
+		function disableselect(e){
+		return false
+		}
+		function reEnable(){
+		return true
+		}
+		document.onselectstart=new Function ("return false")
+		if (window.sidebar){
+		document.onmousedown=disableselect
+		document.onclick=reEnable
+		}
 	</script>
+
 </body>
 </html>
