@@ -1,102 +1,30 @@
-/* ---- base ---- */
-html, body {
-  width: 100%;
+body, html {
+  height: 100%; }
+
+.hero-image {
+  background-image: url("../img/tela.jpg");
   height: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  line-height: 1; }
-
-canvas {
-  display: block; }
-
-/* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold; }
-
-.js-count-particles {
-  font-size: 1.1em; }
-
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px; }
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden; }
-
-.count-particles {
-  border-radius: 0 0 3px 3px; }
-
-/* ---- particles.js container ---- */
-#particles-js {
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/1.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat; }
-
-/* Structure & Background */
-/*background */
-.wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url("../img/1.jpg"), rgba(0, 0, 0, 0.8);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  color: #fff;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.hero-text {
   text-align: center;
-  text-rendering: optimizeLegibility;
-  opacity: "0.4"; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; }
 
-.wrapper:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; }
-
-.wrapper:after {
-  content: "";
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  bottom: 10px;
-  left: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.2); }
-
-.wrapper-inner {
+.hero-as {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  z-index: 2;
   margin-top: -4%;
-  max-width: 80%; }
-
-/*logo as */
-.wrapper-inner:before {
   content: "";
   display: block;
   position: absolute;
@@ -108,12 +36,78 @@ canvas {
   top: 50%;
   margin-left: -168px;
   margin-top: -168px;
-  background-image: url(../img/as2.png);
-  background-size: 100%;
+  opacity: 0.7; }
+
+.social-links {
+  position: fixed;
+  left: 50%;
+  bottom: 50px;
+  margin-left: -180px;
+  padding: 0;
+  list-style-type: none; }
+
+.social-links > li {
+  display: inline-block; }
+
+.social-links {
+  display: block; }
+  .social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+    -webkit-transition: all 0.1s ease-in;
+    opacity: 0.8;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none; }
+
+.icon1:hover {
+  color: #3b5998; }
+
+.icon2:hover {
+  color: #e4405f; }
+
+.icon3:hover {
+  color: #1da1f2; }
+
+.icon4:hover {
+  opacity: 0.1;
+  color: #fff; }
+
+.icon5:hover {
+  color: #0077b5; }
+
+.Copyright {
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 1px; }
+
+.activo {
   opacity: 0.5; }
 
-/* Type */
-.name {
+@font-face {
+  font-family: freight-big-pro;
+  src: url("fonts/freight-big-pro.otf"); }
+@font-face {
+  font-family: Lora;
+  src: url("fonts/LORA.ttf"); }
+@font-face {
+  font-family: amarillo;
+  src: url("fonts/Amarillo.ttf"); }
+.nav-logo {
+  font-family: amarillo; }
+
+.nav-menu {
+  font-family: lora;
+  font-size: 20px; }
+
+.web-developer {
+  color: white;
+  padding: 0px;
+  margin: 0px;
   position: relative;
   z-index: 2;
   font-size: 34px;
@@ -126,117 +120,180 @@ canvas {
   margin-top: 28px;
   text-transform: uppercase; }
 
-.byline {
+.design-graphic {
+  color: white;
   margin-top: 2px;
   position: relative;
   z-index: 2;
-  font-family: "brandon-grotesque";
+  font-family: lora;
   font-size: 13px;
   line-height: 2.2;
   font-weight: 300;
   letter-spacing: 0.4em;
   text-transform: uppercase; }
 
-.divider {
-  width: 80px;
-  margin-top: 75px;
-  border-color: rgba(255, 255, 255, 0.3);
-  border-width: 0;
-  border-bottom-width: 1px; }
+.hero-image-sobre-mi {
+  background-image: url("../img/tela.jpg");
+  height: 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-/* Social Links */
-.social-links {
-  position: fixed;
-  width: 475px;
-  left: 50%;
-  bottom: 50px;
-  margin-left: -237px;
-  padding: 0;
-  list-style-type: none; }
+.img-sobre-mi {
+  opacity: 0.9;
+  width: 80%; }
 
-.social-links > li {
-  display: inline-block; }
+.nombre {
+  text-align: center;
+  font-family: amarillo;
+  font-size: 20px; }
 
-.social-links .email-link-outer {
-  margin-top: 10px;
-  display: block; }
-
-.email-link {
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  font-family: "brandon-grotesque";
-  opacity: 0.5;
-  -webkit-transition: opacity 0.1s ease-in; }
-
-.email-link:hover,
-.email-link:focus {
-  opacity: 1; }
-
-a {
+.text-sobre-mi {
   color: white;
-  margin: 25px;
-  font-size: 20px;
-  -webkit-transition: all 0.1s ease-in;
-  opacity: 0.4;
-  vertical-align: baseline;
-  background: transparent;
-  text-decoration: none; }
+  font-family: lora;
+  font-size: 17px;
+  text-align: justify; }
 
-a:hover {
-  opacity: 1; }
+.titulos {
+  color: white;
+  font-family: lora;
+  font-size: 25px; }
 
-/*Responsive design mobile */
-@media (max-width: 600px) {
-  .name {
-    font-size: 30px;
-    letter-spacing: 0.2em; }
+.hero-image-contacto {
+  background-image: url("../img/tela.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-  a {
-    color: white;
-    margin: 12px;
-    font-size: 20px;
-    -webkit-transition: all 0.1s ease-in;
-    opacity: 0.4;
-    vertical-align: baseline;
-    background: transparent;
-    text-decoration: none; } }
-@media (max-width: 400px) {
-  .name {
-    margin-top: 20px;
-    font-size: 24px;
-    letter-spacing: 0.1em; }
+.titulo-contacto {
+  font-family: lora;
+  color: white; }
 
-  .byline {
-    font-size: 12px;
-    letter-spacing: 0.2em; }
+.parrafo {
+  font-family: "lora", serif;
+  color: white;
+  text-align: center; }
 
-  .wrapper-inner {
-    margin-top: -20%; }
+p {
+  font-family: "lora", serif;
+  color: white; }
 
-  .wrapper-inner:before {
-    width: 200px;
-    height: 200px;
-    margin-left: -100px;
-    margin-top: -100px; }
-
-  a {
-    color: white;
+.rede-sociales {
+  list-style: none;
+  font-family: "lora", serif; }
+  .rede-sociales li {
+    display: inline-block;
     margin: 10px;
-    font-size: 20px;
-    -webkit-transition: all 0.1s ease-in;
-    opacity: 0.4;
-    vertical-align: baseline;
-    background: transparent;
-    text-decoration: none; } }
-html, body, div, h1, h2, h3, h4, h5, h6, p, img, ul, li, footer {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  line-height: 1; }
+    color: white; }
+    .rede-sociales li a {
+      color: white;
+      font-size: 25px; }
+      .rede-sociales li a:hover {
+        text-decoration: none;
+        color: white; }
+
+.caja {
+  padding: 5px; }
+
+.titulo-contacto-formulario {
+  font-family: lora;
+  font-size: 25px;
+  color: white; }
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+    position: relative; }
+
+  /*estilos del index */
+  .web-developer {
+    font-size: 16.5px;
+    font-family: "freight-big-pro"; }
+
+  .design-graphic {
+    font-size: 12px;
+    font-family: "lora"; }
+
+  .hero-as {
+    width: 307px;
+    height: 307px;
+    left: 50%;
+    top: 50%;
+    margin-left: -155px; }
+
+  .social-links {
+    margin-left: -135px; }
+    .social-links a {
+      margin: 15px; }
+
+  .Copyright {
+    font-size: 12px; }
+
+  body, html {
+    height: 100%; }
+
+  .hero-image {
+    background-image: url("../img/tela.jpg");
+    height: 100%;
+    opacity: 0.9; }
+
+  /*estilos de proyectos */
+  .hero-image-proyecto {
+    background-image: url("../img/tela.jpg");
+    height: 200%; }
+
+  /*estilos de sobre mi */
+  .hero-image-sobre-mi {
+    background-image: url("../img/tela.jpg");
+    height: 250%; }
+
+  .img-sobre-mi {
+    opacity: 1;
+    width: 100%; }
+
+  .nombre {
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: blue;
+    font-family: amarillo;
+    font-size: 10px; }
+
+  /*estilos de contacto */
+  .hero-image-contacto {
+    background-image: url("../img/tela.jpg");
+    height: 200%; }
+
+  .rede-sociales li {
+    margin: 6.5px; }
+    .rede-sociales li a {
+      font-size: 20px; } }
+.hero-image-proyecto {
+  background-image: url("../img/tela.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.center {
+  text-align: center; }
+
+.logos {
+  width: 200px;
+  height: auto; }
+
+.caja-img {
+  padding: 1px;
+  margin: 10px;
+  margin: auto; }
 
 /*# sourceMappingURL=main.css.map */

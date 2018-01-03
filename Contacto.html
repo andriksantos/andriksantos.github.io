@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Contacto | Andrick Santos</title>
+	<link rel="icon" href="img/as2.png" type="image/icon">	
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+	<script src="js/live.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103804510-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-103804510-1');
+    </script>
+</head>
+<body>
+  <!--img-hero y el menu-->
+  <div class="hero-image-contacto">
+      <nav class="navbar navbar-expand-lg navbar-light nav-logo">
+      <a class="navbar-brand" href="index.html">AndrickSantos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end nav-menu" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Sobre-mi.html">Sobre mi</a>
+          </li>
+          <li class="nav-item activo">
+            <a class="nav-link" href="Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav><!--menu-->
+
+  <div class="container">
+    <div class="row">
+
+
+    <div class="col-sm-6">
+      <div class="caja">
+        <h1 class="titulo-contacto" >Honduras</h1>
+        <hr>
+        <p><span class="icon-location2"></span> Honduras, San Pedro Sula, +504, C.A</p>
+      </div>
+        <div class="caja">
+          <h1 class="titulo-contacto" >Redes Sociales</h1>
+          <hr>
+          <ul class="rede-sociales">
+          <li><a title="Facebook" href="https://www.facebook.com/andrick.mago" target="_blank" class="icon icon-brand"></a></li>
+          <li><a title="Instagram" href="https://www.instagram.com/andricksantos12/" target="_blank" class="icon icon-brand4"></a></li>
+          <li><a title="Linkedin" href="https://www.linkedin.com/in/andrick-santos-19128b146/" target="_blank" class="icon icon-brand5"></a></li>
+          <li><a title="Twitter" href="https://twitter.com/SantosAndrick1" target="_blank" class="icon icon-brand6"></a></li>
+          <li><a title="Github" href="https://github.com/andricksantos" target="_blank" class="icon icon-brand2"></a></li>
+          <li><a href="tel:+50496679577" class="icon-brand7" title="Whatsapp"></a></li>
+          </ul>
+        </div>
+          <div class="caja">
+          <h1 class="titulo-contacto">Correo</h1>
+          <hr>
+          <ul class="rede-sociales">
+  <li><a href="mailto:andricksantos1@gmail.com" target="_blank" title="Gmail" class="icon icon-brand3"></a> andricksantos1@gmail.com</li>
+          </ul>
+        </div>
+    </div>
+
+  <div class="col-sm-6">
+    <form class="titulo-contacto-formulario" action="https://formspree.io/andricksantos1@gmail.com" method="POST">
+     <div class="form-group ">
+        <label>Su nombre</label>
+        <input type="text" name="name" class="form-control" placeholder="Nombre:">
+      </div>
+      <div class="form-group">
+        <label>Su correo</label>
+        <input type="email" name="_replyto" class="form-control" placeholder="name@example.com">
+      </div>
+     <div class="form-group">
+        <label>Asunto</label>
+          <select  name="checkbox" id="mySelect" class="form-control" onchange="mostrarValor(this.value);" >
+            <option selected>-Elija una opción-</option>
+            <option value="¿Que desea cotizar?" name="Cotizacion" >Cotización</option>
+            <option value="Escriba su comentario" name="Comentario" >Comentario</option>
+            <option value="¿Que desea preguntar?" name="¿Pregunta?" >¿Pregunta?</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label id="label">Su comentario</label>
+          <textarea  name="message" class="form-control" rows=4></textarea>
+      </div>
+      <div class="col-auto" align="center">
+          <button type="submit" value="send" class="btn btn-primary">Enviar</button>
+           <input type="hidden" name="_next" value="#" />
+           <input type="hidden" name="_subject" value="Andrick Santos" />
+        </div>
+    </form>
+    </div>
+
+ </div><!--row-->
+</div><!--container-->
+
+
+  
+  </div><!--Hero-->
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script> 
+
+    <script>
+    document.oncontextmenu = function(){return false;}
+    </script>  
+    <script>
+    function disableselect(e){
+    return false
+    }
+    function reEnable(){
+    return true
+    }
+    document.onselectstart=new Function ("return false")
+    if (window.sidebar){
+    document.onmousedown=disableselect
+    document.onclick=reEnable
+    }
+    </script>
+</body>
+</html>
