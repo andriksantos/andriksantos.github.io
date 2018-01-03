@@ -94,15 +94,15 @@
           <select  name="checkbox" id="mySelect" class="form-control" onchange="mostrarValor(this.value);" >
             <option selected>-Elija una opción-</option>
             <!--<option value="¿Que desea cotizar?" name="Cotizacion" >Cotización</option>-->
-            <option value="Escriba su comentario" name="Comentario" >Comentario</option>
-            <option value="¿Que desea preguntar?" name="¿Pregunta?" >¿Pregunta?</option>
+            <option value="Escriba su comentario" id="Comentario" >Comentario</option>
+            <option value="¿Que desea preguntar?" id="¿Pregunta?" >¿Pregunta?</option>
         </select>
       </div> 
       <div class="form-group">
         <label id="label">Su comentario</label>
           <textarea  name="message" class="form-control" rows=4></textarea>
       </div>
-      <div class="col-auto" align="center">
+      <div class="col-auto center" >
           <button type="submit" value="send" class="btn btn-primary">Enviar</button>
            <input type="hidden" name="_next" value="#" />
            <input type="hidden" name="_subject" value="Andrick Santos" />
