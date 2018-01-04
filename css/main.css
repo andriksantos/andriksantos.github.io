@@ -134,7 +134,7 @@ body, html {
 
 .hero-image-sobre-mi {
   background-image: url("../img/tela.jpg");
-  height: 150%;
+  height: 160%;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -254,7 +254,7 @@ p {
   /*estilos de sobre mi */
   .hero-image-sobre-mi {
     background-image: url("../img/tela.jpg");
-    height: 250%; }
+    height: 260%; }
 
   .img-sobre-mi {
     opacity: 1;
