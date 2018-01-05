@@ -24,6 +24,7 @@ body, html {
   position: relative;
   display: inline-block;
   vertical-align: middle;
+  z-index: 2;
   margin-top: -4%;
   content: "";
   display: block;
@@ -276,12 +277,27 @@ p {
     margin: 6.5px; }
     .rede-sociales li a {
       font-size: 20px; } }
+@media (max-width: 600px) {
+  .hero-image-sobre-mi {
+    background-image: url("../img/tela.jpg");
+    height: 350%; }
+
+  .hero-image-proyecto {
+    background-image: url("../img/tela.jpg");
+    height: 250%; }
+
+  .hero-image-contacto {
+    background-image: url("../img/tela.jpg");
+    height: 300%; } }
 .hero-image-proyecto {
   background-image: url("../img/tela.jpg");
   height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover; }
 
 .center {
