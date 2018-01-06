@@ -4,13 +4,10 @@ body, html {
 .hero-image {
   background-image: url("../img/tela.jpg");
   height: 100%;
-  background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .hero-text {
   text-align: center;
@@ -119,7 +116,8 @@ body, html {
   font-family: "freight-big-pro";
   margin-bottom: 0;
   margin-top: 28px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 .design-graphic {
   color: white;
@@ -135,14 +133,10 @@ body, html {
 
 .hero-image-sobre-mi {
   background-image: url("../img/tela.jpg");
-  height: 160%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .img-sobre-mi {
   opacity: 0.9;
@@ -164,17 +158,6 @@ body, html {
   font-family: lora;
   font-size: 25px; }
 
-.hero-image-contacto {
-  background-image: url("../img/tela.jpg");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .titulo-contacto {
   font-family: lora;
   color: white; }
@@ -186,7 +169,8 @@ body, html {
 
 p {
   font-family: "lora", serif;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .rede-sociales {
   list-style: none;
@@ -217,7 +201,7 @@ p {
 
   /*estilos del index */
   .web-developer {
-    font-size: 16.5px;
+    font-size: 16px;
     font-family: "freight-big-pro"; }
 
   .design-graphic {
@@ -248,15 +232,11 @@ p {
     opacity: 0.9; }
 
   /*estilos de proyectos */
-  .hero-image-proyecto {
+  .proyecto {
     background-image: url("../img/tela.jpg");
-    height: 200%; }
+    height: 240%; }
 
   /*estilos de sobre mi */
-  .hero-image-sobre-mi {
-    background-image: url("../img/tela.jpg");
-    height: 260%; }
-
   .img-sobre-mi {
     opacity: 1;
     width: 100%; }
@@ -269,40 +249,18 @@ p {
     font-size: 10px; }
 
   /*estilos de contacto */
-  .hero-image-contacto {
+  .contacto {
     background-image: url("../img/tela.jpg");
-    height: 200%; }
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
 
   .rede-sociales li {
     margin: 6.5px; }
     .rede-sociales li a {
       font-size: 20px; } }
-@media (max-width: 600px) {
-  .hero-image-sobre-mi {
-    background-image: url("../img/tela.jpg");
-    height: 350%; }
-
-  .hero-image-proyecto {
-    background-image: url("../img/tela.jpg");
-    height: 250%; }
-
-  .hero-image-contacto {
-    background-image: url("../img/tela.jpg");
-    height: 300%; } }
-.hero-image-proyecto {
-  background-image: url("../img/tela.jpg");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.center {
-  text-align: center; }
-
 .logos {
   width: 200px;
   height: auto; }
