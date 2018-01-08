@@ -261,6 +261,14 @@ p {
     margin: 6.5px; }
     .rede-sociales li a {
       font-size: 20px; } }
+@media (max-width: 600px) {
+  .web-developer {
+    font-size: 14px;
+    font-family: "freight-big-pro"; }
+
+  .design-graphic {
+    font-size: 11px;
+    font-family: "lora"; } }
 .logos {
   width: 200px;
   height: auto; }
