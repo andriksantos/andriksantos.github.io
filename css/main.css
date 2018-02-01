@@ -195,6 +195,9 @@ p {
   color: white; }
 
 @media (max-width: 575px) {
+  img {
+    width: 200px; }
+
   .navbar-brand {
     font-size: 1.25rem;
     position: relative; }
@@ -209,11 +212,11 @@ p {
     font-family: "lora"; }
 
   .hero-as {
-    width: 307px;
-    height: 307px;
+    width: 250px;
+    height: 250px;
     left: 50%;
-    top: 50%;
-    margin-left: -155px; }
+    top: 100%;
+    margin-left: -123px; }
 
   .social-links {
     margin-left: -135px; }
