@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!-- SEO -->
-	<title>Andrick Santos | WebSite Oficial</title>
+	<title>Contact | Andrick Santos | WebSite Oficial</title>
 	<meta name="description" content="Diseñador Grafico y Desarrollador especializado en programación Front-End | Back-End">
 	<meta name="author" content="Andrick Santos">
 	<!-- URL CANONICAL -->
@@ -35,13 +35,16 @@
 	<!-- link de archivos locales -->
 	<link rel="icon" href="img/logo-pagina/logo-as--.png" type="image/icon">	
 	<link rel="stylesheet" href="css/fonts.css">
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-		
-	<!-- Google Analytics -->
+
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+		<!-- Google Analytics -->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,7 +60,7 @@
 <body>
 	<!-- Header -->
 	<header id="home">		
-		<div class="bg-img" style="background-image: url('./img/sobre-andrick/tela.jpg');"><!-- Background Image -->
+		<div class="bg-img contacto-img"><!-- Background Image -->
 			<div class="overlay"></div>
 		</div>
 		<!-- Nav-menu -->
@@ -67,7 +70,7 @@
 					<div class="navbar-brand">
 						<a href="index.html">
 							<img class="logo img-logo" src="img/logo-pagina/logo-negro.svg" alt="logo">
-							<img class="logo-alt img-logo" src="img/logo-pagina/logo.svg" alt="logo">
+								<img class="logo-alt img-logo" src="img/logo-pagina/logo.svg" alt="logo">
 						</a>
 					</div>
 					<!-- Collapse nav button -->
@@ -78,11 +81,11 @@
 
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav  navbar-right">
-					<li class="active"><a  href="index.html">Home</a></li>
+					<li><a  href="index.html">Home</a></li>
 					<li><a href="Work.html">Work's  </a></li>
 					<li><a href="About-me.html">About me</a></li>
 					<li><a href="Team.html">Team</a></li>
-					<li class="has-dropdown"><a>Store's</a>
+					<li class="has-dropdown"><a href="#">Store's</a>
 						<ul class="dropdown">
 							<li><a target="_blank" title="+ Go to Store +" href="https://teespring.com/es/stores/hipsters-2">Hipsters</a></li>
 							<li><a target="_blank" title="+ Go to Store +" href="https://teespring.com/es/stores/fitness-life">Fitness Life</a></li>
@@ -90,30 +93,85 @@
 							<li><a target="_blank" title="+ Go to Store +" href="https://teespring.com/es/stores/animals-65">Animal's</a></li>
 						</ul>
 					</li>
-					<li><a href="Contact.html">Contact</a></li>
+					<li class="active"><a href="Contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
 		<!-- /Nav -->
 
-		<!-- home wrapper -->
 		<div class="home-wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="home-content">
-							<h1 class="white-text">+ Web Developer +</h1>
-							<h2 class="white-text">- Graphic Designer - </h2>
-							<h3 class="white-text">* Voluntering TECHO *</h3>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="home-content">
+								<h1 class="white-text">Write me!</h1>
+								<h2 class="fuente">If you want me to help you in something, do not hesitate to write me  I will gladly help you...</h2>
+								<h3 class="fuente">"depression suicide is real, if you feel suicidal / depressed and you occupy a friend, please talk to me, I want you alive."</h3>
+								<a href="#contact"><button class="main-btn"><i class="fa fa-check"></i> Contact Form</button></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 	</header>
-
-
-	<!-- Footer -->
+		
+		<!-- Contact -->
+		<div id="contact" class="section sm-padding">
+			<div class="container">
+				<div class="row">
+					<div class="section-header text-center">
+						<h2 class="title">Get in touch</h2>
+					</div>
+					<!-- /Section-header -->
+					<!-- contact -->
+					<div class="col-sm-4">
+						<div class="contact">
+							<i class="fa fa-phone"></i>
+							<h3>Phone</h3>
+							<p class="black">(+504) 9667-9577</p>
+						</div>
+					</div>
+					<!-- /contact -->
+	
+					<!-- contact -->
+					<div class="col-sm-4">
+						<div class="contact">
+							<i class="fa fa-envelope"></i>
+							<h3>Email</h3>
+							<p class="black">andricksantos1@gmail.com</p>
+						</div>
+					</div>
+					<!-- /contact -->
+					
+					<!-- contact -->
+					<div class="col-sm-4">
+						<div class="contact">
+							<i class="fa fa-map-marker"></i>
+							<h3>Address</h3>
+							<p class="black">Honduras, San Pedro Sula</p>
+						</div>
+					</div>
+					<!-- /contact -->
+	
+					<!-- contact form -->
+					<div class="col-md-8 col-md-offset-2">
+						<form class="contact-form" action="https://formspree.io/andricksantos1@gmail.com" method="POST">
+							<input type="text" name="name" class="input" placeholder="Name">
+							<input type="email" name="_replyto" class="input" placeholder="Email">
+							<textarea name="message"  class="input" placeholder="Message"></textarea>
+							<button type="submit" value="send" class="main-btn">Send message</button>
+							<input type="hidden" name="_next" value="#" />
+							<input type="hidden" name="_subject" value="Andrick Santos"/>
+						</form>
+					</div>
+					<!-- /contact form -->
+				</div>
+			</div>
+		</div>
+		<!-- /Contact -->
+		
+		<!-- Footer -->
 	<footer id="footer" class="sm-padding bg-dark">
 		<div class="container">
 			<div class="row">
@@ -137,7 +195,8 @@
 	</footer>
 
 	<!-- Back to top -->
-	<div id="back-to-top"></div>
+	<div id="back-to-top">
+    </div>
 	<!-- /Back to top -->
 
 	<!-- Preloader -->
@@ -148,32 +207,30 @@
 			<span></span>
 			<span></span>
 		</div>
-	</div>
+    	</div>
 	<!-- /Preloader -->
-	
+
 	<!-- jQuery Plugins -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
-
-
+    <script src="js/funciones.js"></script>
 
 	<script>
-		document.oncontextmenu = function(){return false;}
-	</script>  
-	<script>
-		function disableselect(e){
-		return false
-		}
-		function reEnable(){
-		return true
-		}
-		document.onselectstart=new Function ("return false")
-		if (window.sidebar){
-		document.onmousedown=disableselect
-		document.onclick=reEnable
-		}
-	</script>
-			
+            document.oncontextmenu = function(){return false;}
+        </script>  
+        <script>
+            function disableselect(e){
+            return false
+            }
+            function reEnable(){
+            return true
+            }
+            document.onselectstart=new Function ("return false")
+            if (window.sidebar){
+            document.onmousedown=disableselect
+            document.onclick=reEnable
+            }
+        </script>
 </body>
 </html>
