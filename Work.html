@@ -58,12 +58,17 @@
 	
 </head>
 <body>
-	<!-- Header -->
-	<header id="home">		
-		<div class="bg-img" style="background-image: url('img/work/intro-bg.jpg');"><!-- Background Image -->
-			<div class="overlay"></div>
-		</div>
-		<!-- Nav-menu -->
+<!-- Header -->
+<header id="home">		
+			<div class="homepage-hero-module">
+				<div class="video-container">
+					<div class="filter"></div>
+						<video autoplay loop class="fillWidth">
+							<source src="img/video-hero/Hello-World.webm" type="video/mp4" />
+							<source src="PATH_TO_WEBM" type="video/webm" />
+						</video>
+
+							<!-- Nav-menu -->
 		<nav id="nav" class="navbar nav-transparent">
 			<div class="container">
 				<div class="navbar-header">
@@ -112,7 +117,13 @@
 					</div>
 				</div>
 			</div>
+	
+
+				</div>
+			</div>
+	
 		</header>
+
 
 <div id="portfolio" class="section md-padding bg-grey">
 		<div class="container">
@@ -261,25 +272,25 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.magnific-popup.js"></script>
 	<script src="js/main.js"></script>
-	
+	<script src="js/funciones.js"></script>
 	<!-- 
 		<script>
 			document.oncontextmenu = function(){return false;}
 		</script>  
+		<script>
+			function disableselect(e){
+				return false
+			}
+			function reEnable(){
+				return true
+			}
+			document.onselectstart=new Function ("return false")
+			if (window.sidebar){
+				document.onmousedown=disableselect
+				document.onclick=reEnable
+			}
+		</script>
 	-->
-	<script>
-		function disableselect(e){
-		return false
-		}
-		function reEnable(){
-		return true
-		}
-		document.onselectstart=new Function ("return false")
-		if (window.sidebar){
-		document.onmousedown=disableselect
-		document.onclick=reEnable
-		}
-	</script>
 			
 </body>
 </html>

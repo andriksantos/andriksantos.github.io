@@ -55,61 +55,72 @@
 	
 </head>
 <body>
-	<!-- Header -->
-	<header id="home">		
-		<div class="bg-img" style="background-image: url('./img/sobre-andrick/tela.jpg');"><!-- Background Image -->
-			<div class="overlay"></div>
-		</div>
-		<!-- Nav-menu -->
-		<nav id="nav" class="navbar nav-transparent">
-			<div class="container">
-				<div class="navbar-header">
-					<div class="navbar-brand">
-						<a href="index.html">
-							<img class="logo img-logo" src="img/logo-pagina/logo-negro.svg" alt="logo">
-							<img class="logo-alt img-logo" src="img/logo-pagina/logo.svg" alt="logo">
-						</a>
+<!-- Header -->
+<header id="home">		
+
+	<div class="homepage-hero-module">
+		<div class="video-container">
+			<div class="filter"></div>
+			<video autoplay loop class="fillWidth">
+				<source src="img/video-hero/Wavez.webm" type="video/mp4" />
+				<source src="PATH_TO_WEBM" type="video/webm" />
+			</video>
+			
+				<!-- Nav-menu -->
+				<nav id="nav" class="navbar nav-transparent">
+					<div class="container">
+						<div class="navbar-header">
+							<div class="navbar-brand">
+								<a href="index.html">
+								<img class="logo img-logo" src="img/logo-pagina/logo-negro.svg" alt="logo">
+								<img class="logo-alt img-logo" src="img/logo-pagina/logo.svg" alt="logo">
+							</a>
+						</div>
+						<!-- Collapse nav button -->
+						<div class="nav-collapse">
+							<span></span>
+						</div>
 					</div>
-					<!-- Collapse nav button -->
-					<div class="nav-collapse">
-						<span></span>
-					</div>
+					
+					<!--  Main navigation  -->
+					<ul class="main-nav nav navbar-nav  navbar-right">
+						<li class="active"><a  href="index.html">Home</a></li>
+						<li><a href="Work.html">Work's  </a></li>
+						<li><a href="About-me.html">About me</a></li>
+						<li><a href="Team.html">Team</a></li>
+						<li class="has-dropdown"><a>Store's</a>
+							<ul class="dropdown">
+								<li><a target="_blank" title="+ Go to Store +" href="https://teespring.com/stores/el-garaje">El Garaje</a></li>
+							</ul>
+						</li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>
 				</div>
+			</nav>
+			<!-- /Nav -->
 
-				<!--  Main navigation  -->
-				<ul class="main-nav nav navbar-nav  navbar-right">
-					<li class="active"><a  href="index.html">Home</a></li>
-					<li><a href="Work.html">Work's  </a></li>
-					<li><a href="About-me.html">About me</a></li>
-					<li><a href="Team.html">Team</a></li>
-					<li class="has-dropdown"><a>Store's</a>
-						<ul class="dropdown">
-							<li><a target="_blank" title="+ Go to Store +" href="https://teespring.com/stores/el-garaje">El Garaje</a></li>
-						</ul>
-					</li>
-					<li><a href="Contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-		<!-- /Nav -->
-
-		<!-- home wrapper -->
-		<div class="home-wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="home-content">
-							<h1 class="white-text">+ Web Developer +</h1>
-							<h2 class="white-text">- Graphic Designer - </h2>
-							<h3 class="white-text">* Voluntering TECHO *</h3>
+			
+			
+			<!-- home wrapper -->
+			<div class="home-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="home-content">
+								<h1 class="white-text">+ Web Developer +</h1>
+								<h2 class="white-text">- Graphic Designer - </h2>
+								<h3 class="white-text">* Voluntering TECHO *</h3>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		
 		</div>
-	</header>
+	</div>
+</header>
 
-
+	
 	<!-- Footer -->
 	<footer id="footer" class="sm-padding bg-dark">
 		<div class="container">
@@ -152,26 +163,27 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/funciones.js"></script>
 
 
 	<!-- 
 		<script>
 			document.oncontextmenu = function(){return false;}
 		</script>  
+		<script>
+			function disableselect(e){
+				return false
+			}
+			function reEnable(){
+				return true
+			}
+			document.onselectstart=new Function ("return false")
+			if (window.sidebar){
+				document.onmousedown=disableselect
+				document.onclick=reEnable
+			}
+		</script>
 	-->
-	<script>
-		function disableselect(e){
-		return false
-		}
-		function reEnable(){
-		return true
-		}
-		document.onselectstart=new Function ("return false")
-		if (window.sidebar){
-		document.onmousedown=disableselect
-		document.onclick=reEnable
-		}
-	</script>
 			
 </body>
 </html>

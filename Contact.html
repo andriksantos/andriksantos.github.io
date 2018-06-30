@@ -216,19 +216,19 @@
 		<script>
 			document.oncontextmenu = function(){return false;}
 		</script>  
-	-->
         <script>
-            function disableselect(e){
-            return false
+			function disableselect(e){
+				return false
             }
             function reEnable(){
-            return true
+				return true
             }
             document.onselectstart=new Function ("return false")
             if (window.sidebar){
-            document.onmousedown=disableselect
-            document.onclick=reEnable
+				document.onmousedown=disableselect
+				document.onclick=reEnable
             }
         </script>
-</body>
+	-->
+	</body>
 </html>
