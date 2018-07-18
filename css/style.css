@@ -3,6 +3,7 @@ body{font-family:'Varela Round', sans-serif;font-size:16px;line-height:1.6;overf
 @font-face{font-family:Lora;src:url("fonts/LORA.ttf");}
 @font-face{font-family:amarillo;src:url("fonts/Montserrat-Bold.ttf");}
 @font-face{font-family:amarillo;src:url("fonts/Montserrat-Regular.ttf");}
+@font-face{font-family:amarillo;src:url("fonts/Novecentowide-Bold.otf");}
 .icon1:hover{color:#3b5998;}
 .icon2:hover{color:#e4405f;}
 .icon3:hover{color:#1da1f2;}
@@ -453,4 +454,8 @@ span#typed-cursor{opacity:1;-webkit-animation:blink .7s infinite;-moz-animation:
     
    
    z-index: 2;
+}
+
+.margen{
+    margin-right: 10px;
 }
