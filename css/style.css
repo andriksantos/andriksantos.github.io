@@ -64,12 +64,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 #nav.fixed-nav .navbar-brand .logo-alt{display:none;}
 @media only screen and (max-width:767px){#nav.nav-transparent .navbar-brand .logo-alt{display:none !important;}
 #nav.nav-transparent .navbar-brand .logo{display:block !important;}
+.alto{height: 150%;}
 }
 #nav{padding:10px 0px;background:#FFF;-webkit-transition:0.2s padding;transition:0.2s padding;z-index:999;}
 #nav.navbar{border:none;border-radius:0;margin-bottom:0px;}
 #nav.fixed-nav{position:fixed;left:0;right:0;padding:0px 0px;background-color:#FFF !important;border-bottom:1px solid #EEE;}
 #nav.nav-transparent{background:transparent;}
 @media only screen and (min-width:768px){
+    .alto{height: 150%;}
 .main-nav li{padding:0px 15px;}
 .main-nav li a{font-size:14px;-webkit-transition:0.2s color;transition:0.2s color;}
 .main-nav>li>a{color:#10161A;padding:15px 0px;}
@@ -89,6 +91,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .nav-collapse{display:none;}
 }
 @media only screen and (max-width:767px){#nav{padding:0px 0px;}
+.alto{height: 150%;}
 #nav.nav-transparent{background:#FFF;}
 .main-nav{position:fixed;right:0;height:calc(100vh - 80px);-webkit-box-shadow:0px 80px 0px 0px #1C1D21;box-shadow:0px 80px 0px 0px #1C1D21;max-width:250px;width:0%;-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);margin:0;overflow-y:auto;background:#1C1D21;-webkit-transition:0.2s all;transition:0.2s all;}
 #nav.open .main-nav{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%);width:100%;}
@@ -250,7 +253,7 @@ header{position:relative;}
 .footer-follow li{display:inline-block;margin-right:10px;margin-bottom:13px;}
 .footer-follow li a{display:inline-block;width:40px;height:40px;line-height:40px;text-align:center;border-radius:3px;background-color:#6195FF;color:#FFF;}
 .footer-copyright p{text-align:center;font-size:14px;text-transform:uppercase;margin:0;}
-@media only screen and (max-width:991px){}
+@media only screen and (max-width:991px){.alto{height: 150%;}}
 @media only screen and (max-width:767px){.section-header  h2.title{font-size:31.5px;}
 .main-btn , .default-btn , .outline-btn , .white-btn{padding:8px 22px;font-size:14px;}
 .home-content h1{font-size:28px;}
@@ -258,6 +261,7 @@ header{position:relative;}
 .header-wrapper .breadcrumb{float:none;text-align:center;}
 .white-text{font-size: 26px;}
 .img-logo{width: 100%;height: 100%;}
+.alto{height: 150%;}
 }
 @media only screen and (max-width:480px){#portfolio [class*='col-xs']{width:100%;}
 #numbers [class*='col-xs']{width:100%;}
@@ -270,6 +274,7 @@ header{position:relative;}
 .blog-author .media .media-heading .author-social{margin-top:10px;float:none;}
 .blog-author .media .media-left img{margin:auto;}
 .blog-comments .media .media{margin:0px -15px;}
+.alto{height: 150%;}
 }
 .owl-theme .owl-dots .owl-dot span{border:none;background:#EEE;-webkit-transition:0.2s all;transition:0.2s all;}
 .owl-theme .owl-dots .owl-dot:hover span{background:#6195FF;}
@@ -458,4 +463,8 @@ span#typed-cursor{opacity:1;-webkit-animation:blink .7s infinite;-moz-animation:
 
 .margen{
     margin-right: 10px;
+}
+
+.alto{
+    height: 100%;
 }
