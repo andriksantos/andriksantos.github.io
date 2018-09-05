@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://andricksantos.github.io/</loc>
+  <lastmod>2018-09-03T16:07:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/index.html</loc>
+  <lastmod>2018-09-03T16:07:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/Work.html</loc>
+  <lastmod>2018-09-03T16:07:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/About-me.html</loc>
+  <lastmod>2018-09-03T16:07:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/Contact.html</loc>
+  <lastmod>2018-09-03T16:07:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/awesome-web-development/</loc>
+  <lastmod>2018-09-03T16:10:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/introduction/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/download/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/pages/</loc>
+  <lastmod>2018-07-26T15:50:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/awesome-web-development/.</loc>
+  <lastmod>2018-09-03T16:10:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/layout/overview/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/about/overview/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/contents/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/browsers-devices/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/javascript/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/theming/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/build-tools/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/webpack/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/getting-started/accessibility/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/layout/grid/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/layout/media-object/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/layout/utilities-for-layout/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/content/reboot/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/content/typography/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/content/code/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/content/images/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/content/tables/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/content/figures/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/alerts/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/badge/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/breadcrumb/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/buttons/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/button-group/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/card/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/carousel/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/collapse/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/dropdowns/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/forms/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/input-group/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/jumbotron/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/list-group/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/modal/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/navs/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/navbar/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/pagination/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/popovers/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/progress/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/scrollspy/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/components/tooltips/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/borders/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/clearfix/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/close-icon/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/colors/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/display/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/embed/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/flex/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/float/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/image-replacement/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/position/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/screenreaders/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/shadows/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/sizing/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/spacing/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/text/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/vertical-align/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/utilities/visibility/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/extend/approach/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/extend/icons/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/migration/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/about/brand/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/about/license/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/about/translations/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/album/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/pricing/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/checkout/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/product/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/cover/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/carousel/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/blog/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/dashboard/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/sign-in/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/sticky-footer/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/sticky-footer-navbar/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/starter-template/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/grid/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/jumbotron/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/navbars/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/navbar-static/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/navbar-fixed/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/navbar-bottom/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/floating-labels/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/examples/offcanvas/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/introduction/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/getting-started/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/css/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/components/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/javascript/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/customize/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/css/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/about/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/index-2.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/getting-started.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/scaffolding.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/base-css.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/components.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/javascript.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/customize.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/extend.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.1/browser-bugs/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/download/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/contents/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/browsers-devices/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/javascript/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/theming/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/build-tools/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/webpack/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/getting-started/accessibility/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/layout/overview/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/layout/grid/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/layout/media-object/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/layout/utilities-for-layout/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/content/reboot/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/content/typography/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/content/code/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/content/images/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/content/tables/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/content/figures/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/alerts/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/badge/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/breadcrumb/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/buttons/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/button-group/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/card/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/carousel/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/collapse/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/dropdowns/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/forms/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/input-group/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/jumbotron/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/list-group/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/modal/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/navs/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/navbar/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/pagination/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/popovers/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/progress/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/scrollspy/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/components/tooltips/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/borders/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/clearfix/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/close-icon/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/colors/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/display/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/embed/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/flex/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/float/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/image-replacement/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/position/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/screenreaders/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/sizing/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/spacing/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/text/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/vertical-align/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/utilities/visibility/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/extend/approach/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/extend/icons/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/migration/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/about/overview/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/about/brand/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/about/license/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/about/translations/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/starter-template/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/theme/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/grid/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/jumbotron/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/jumbotron-narrow/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/navbar/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/navbar-static-top/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/navbar-fixed-top/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/cover/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/carousel/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/blog/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/dashboard/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/signin/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/justified-nav/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/sticky-footer/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/sticky-footer-navbar/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/non-responsive/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/examples/offcanvas/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/migration/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/3.3/browser-bugs/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/components/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/getting-started/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/starter-template.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/hero.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/fluid.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/marketing-narrow.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/justified-nav.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/signin.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/sticky-footer.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/carousel.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/css/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/javascript/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/album/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/pricing/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/checkout/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/product/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/cover/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/carousel/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/blog/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/dashboard/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/sign-in/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/sticky-footer/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/sticky-footer-navbar/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/starter-template/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/grid/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/jumbotron/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/navbars/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/navbar-static/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/navbar-fixed/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/navbar-bottom/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/floating-labels/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/offcanvas/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/browser-bugs/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/2.3.2/examples/sticky-footer-navbar.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/navbar-top/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://andricksantos.github.io/es-la-bootstrap/docs/4.0/examples/navbar-top-fixed/index.html</loc>
+  <lastmod>2018-07-26T15:50:01+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+
+
+</urlset>
