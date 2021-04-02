@@ -21,6 +21,13 @@ body {
     body {
       font-size: 16px; } }
 
+.margen{
+  margin: 5px;
+  /*
+  padding: 10px;
+  */
+}
+
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;

@@ -1,5 +1,13 @@
 <div align="center">
-<img width="400px;" src="images/logos/arsm.jpg" alt="Andrik Santos">       
+<img width="400px;" src="images/logos/arsm.jpg" alt="Andrik Santos"> 
+
+<p>
+		<img src="https://img.shields.io/badge/GraphicDesing-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
+		<img src="https://img.shields.io/badge/Software Engineer-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
+		<img src="https://img.shields.io/badge/Full Stack Developer-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
+		<img src="https://img.shields.io/badge/Support IT-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
+	</p>
+
 </div>
 
 ---
@@ -20,36 +28,7 @@ I'm the Graphic Designer in **BEDIFF** a nonprofit ONG that seeks to improve peo
 ## Programming language
 <p>
 
-<img src="https://img.shields.io/badge/C%23-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-critical">
-<img src="https://img.shields.io/badge/C%2B%2B-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-critical">
-<img src="https://img.shields.io/badge/C-★★★★★-critical">
-<img src="https://img.shields.io/badge/Javascript-★★★★★-critical">
-<img src="https://img.shields.io/badge/PHP-★★★★★-critical">
-<img src="https://img.shields.io/badge/SQL-★★★★★-critical">
-<img src="https://img.shields.io/badge/Visual%20Basic-★★★★★-critical">
-<img src="https://img.shields.io/badge/Ruby-★★★★★-critical">
-
-</p>
-
-## Skills
-<p>
-
-<img src="https://img.shields.io/badge/Support%20IT-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Networking-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Project%20Management-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Informatic%20security-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/SAP-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/DataBase-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Servers-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Cisco-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Systems%20Administrator-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Graphic%20Designer-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Innovation-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Operating%20Systems-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Cloud%20Computing-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Digital%20Skills-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Web%20Developer-★★★★★-brightgreen">
-<img src="https://img.shields.io/badge/Web%20Manager-★★★★★-brightgreen">
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=andriksantos&layout=compact)](https://github.com/andriksantos/github-readme-stats)
 
 </p>
 
