@@ -1,5 +1,5 @@
 <div align="center">
-<img width="400px;" src="images/logos/arsm.jpg" alt="Andrik Santos"> 
+<img width="400px;" src="https://github.com/andriksantos/andriksantos/raw/master/assets/img/logo.png" alt="Andrik Santos"> 
 
 <p>
 		<img src="https://img.shields.io/badge/GraphicDesing-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
@@ -26,11 +26,12 @@ I'm the Graphic Designer in **BEDIFF** a nonprofit ONG that seeks to improve peo
 
 
 ## Programming language
-<p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=andriksantos&layout=compact)](https://github.com/andriksantos/github-readme-stats)
-
-</p>
+<div align="center">
+    <a href="https://github.com/andriksantos">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=andriksantos&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=andriksantos&layout=compact&langs_count=7&theme=dracula"/>
+</div>
 
 ##  Follow me on:
 <p>
@@ -53,13 +54,6 @@ I'm the Graphic Designer in **BEDIFF** a nonprofit ONG that seeks to improve peo
 
 <img src="https://img.shields.io/github/followers/andriksantos?style=social">
 
-<img src="https://img.shields.io/twitter/follow/andrik_rsm?style=social">
-
 </p>
 
 _You can find the list of open source projects I have been a part of_  👉 [Github: Andrik Santos](https://github.com/andriksantos (Software Engineer))
-
----
-
-**Create by:** [Andrik Santos](https://andriksantos.github.io/ (Software Engineer))
-**Patrocinate by:** [IOminds](https://iominds.github.io (Development Company))
