@@ -76,6 +76,10 @@ a:focus {
   text-align: justify;
 }
 
+.margin{
+  margin: 15px;
+}
+
 ul,
 ol {
   margin: 0; }
