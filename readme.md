@@ -12,13 +12,11 @@
 
 ---
 ##  WHO AM I?
-**_Hi, I'm Andrik Santos I'm 25 years old. I'm from Honduras, San Pedro Sula._**
+**_Hi, I'm Andrik Santos I'm 27 years old. I'm from Honduras, San Pedro Sula._**
 
-After obtaining a degree in administrative computing, I specialized in networks, computer security, graphic design, web development, application development, SAP, among others. I have worked for companies such as **Inversiones Chris, TECHO, Book Store Inc**, and else. I did the Professional Practice in Gildan for more details in GildanPractice
+After obtaining a degree in administrative computing, I specialized in networks, computer security, graphic design, web development, application development, SAP, among others. I have worked for companies such as **Inversiones Chris, TECHO, Book Store Inc**, and else. I did the Professional Practice in **Gildan** for more details in [GildanPractice](https://andriksantos.github.io/GildanPractice/)
 
-I am currently the Founder and CEO of **Garage Studio HN** a digital marketing company online, Stile an store online and **IOminds** a technology company dedicated to the development of multiplatform applications in order to meet the technology needs of companies.
-
-I'm the Graphic Designer in **BEDIFF** a nonprofit ONG that seeks to improve people's quality of life, Graphic Designer in **EDUPLAV - Educación para la vida** and Worked at **TECHO Honduras** as a web manager. And web Developer in **Intelligent Building HN** a residential and commercial automation company Domotica.
+I have many skills in Data Sciences, Business Management, Social Media Marketing, a multifaceted professional with more than 7 years of experience in the industry.
 
 -   _I'm a computer scientist with certain skills such as the Graphic Design, Computer Security, Application Programming and Web Development._ [WebSite](https://andriksantos.github.io/)
 ---
