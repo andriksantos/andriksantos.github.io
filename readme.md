@@ -2,23 +2,15 @@
 <img width="400px;" src="https://github.com/andriksantos/andriksantos/raw/master/assets/img/logo.png" alt="Andrik Santos"> 
 
 <p>
-		<img src="https://img.shields.io/badge/GraphicDesing-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
+		<img src="https://img.shields.io/badge/Data Science-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
 		<img src="https://img.shields.io/badge/Software Engineer-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
-		<img src="https://img.shields.io/badge/Full Stack Developer-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
+		<img src="https://img.shields.io/badge/Business Intelligence-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
 		<img src="https://img.shields.io/badge/Support IT-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue">
 	</p>
 
 </div>
 
----
-##  WHO AM I?
-**_Hi, I'm Andrik Santos I'm 27 years old. I'm from Honduras, San Pedro Sula._**
 
-After obtaining a degree in administrative computing, I specialized in networks, computer security, graphic design, web development, application development, SAP, among others. I have worked for companies such as **Inversiones Chris, TECHO, Book Store Inc**, and else. I did the Professional Practice in **Gildan** for more details in [GildanPractice](https://andriksantos.github.io/GildanPractice/)
-
-I have many skills in Data Sciences, Business Management, Social Media Marketing, a multifaceted professional with more than 7 years of experience in the industry.
-
--   _I'm a computer scientist with certain skills such as the Graphic Design, Computer Security, Application Programming and Web Development._ [WebSite](https://andriksantos.github.io/)
 ---
 
 
@@ -38,8 +30,8 @@ I have many skills in Data Sciences, Business Management, Social Media Marketing
     <img src="https://img.shields.io/badge/Facebook-andrik.rsm-blue" alt="AndrikSantos">
 </a>
 
-<a href="https://www.instagram.com/andriksantos12">
-    <img src="https://img.shields.io/badge/Instagram-andriksantos12-ff69b4" alt="AndrikSantos">
+<a href="https://www.instagram.com/andriksantos1">
+    <img src="https://img.shields.io/badge/Instagram-andriksantos1-ff69b4" alt="AndrikSantos">
 </a>
 
 <a href="https://www.linkedin.com/in/andriksantos">
