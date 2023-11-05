@@ -13,8 +13,6 @@
 
 ---
 
-
-
 ## Programming language
 
 <div align="center">
