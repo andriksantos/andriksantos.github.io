@@ -1,454 +1,184 @@
 <!DOCTYPE html>
-<html lang="es" id="html-root">
+<html lang="es" data-lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Términos de Servicio — Andrik Santos</title>
-  <meta name="description" content="Términos y condiciones de servicio de Andrik Santos. Lee las condiciones que rigen el uso de este sitio y la contratación de servicios." />
-  <meta name="robots" content="noindex, follow" />
-  <link rel="canonical" href="https://andriksantos.github.io/terms.html" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
-
-   <!-- Favicons -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Términos de Uso | Andrik Santos</title>
+  <meta name="description" content="Términos y Condiciones de Uso del sitio web de Andrik Santos.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://andriksantos.github.io/terms.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  
+    <!-- Favicons -->
   <link href="assets2/img/logooriginal.png" rel="icon">
   <link href="assets2/img/logooriginal.png" rel="apple-touch-icon">
-
+  
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --c-bg: #F7F6F2;
-      --c-surface: #FFFFFF;
-      --c-ink: #1A1A18;
-      --c-ink-2: #5A5A54;
-      --c-ink-3: #9A9A94;
-      --c-accent: #2C6E5A;
-      --c-accent-light: #E1F5EE;
-      --c-accent-mid: #9FE1CB;
-      --c-border: rgba(26,26,24,0.10);
-      --font-sans: 'DM Sans', sans-serif;
-      --font-serif: 'DM Serif Display', serif;
-      --nav-h: 68px;
-      --max: 760px;
-    }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: var(--font-sans);
-      background: var(--c-bg);
-      color: var(--c-ink);
-      line-height: 1.75;
-      font-size: 16px;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: var(--c-accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    /* LANG */
-    [data-lang="es"] { display: block; }
-    [data-lang="en"] { display: none; }
-    .lang-en [data-lang="es"] { display: none; }
-    .lang-en [data-lang="en"] { display: block; }
-    [data-lang-inline="es"] { display: inline; }
-    [data-lang-inline="en"] { display: none; }
-    .lang-en [data-lang-inline="es"] { display: none; }
-    .lang-en [data-lang-inline="en"] { display: inline; }
-
-    /* NAV */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      height: var(--nav-h);
-      background: rgba(247,246,242,0.92);
-      backdrop-filter: blur(14px);
-      border-bottom: 1px solid var(--c-border);
-      display: flex; align-items: center;
-    }
-    .nav-inner {
-      width: 100%; max-width: 1100px;
-      margin: 0 auto; padding: 0 2rem;
-      display: flex; align-items: center; justify-content: space-between;
-    }
-    .nav-logo {
-      font-family: var(--font-serif);
-      font-size: 1.2rem;
-      color: var(--c-ink);
-      letter-spacing: -0.02em;
-      text-decoration: none;
-    }
-    .nav-right { display: flex; align-items: center; gap: 1rem; }
-    .nav-back {
-      font-size: 0.85rem;
-      color: var(--c-ink-2);
-      display: flex; align-items: center; gap: 6px;
-      transition: color 0.2s;
-    }
-    .nav-back:hover { color: var(--c-accent); text-decoration: none; }
-    .lang-btn {
-      font-size: 0.8rem; font-weight: 500;
-      color: var(--c-ink-2);
-      background: none;
-      border: 1px solid var(--c-border);
-      border-radius: 50px;
-      padding: 4px 14px;
-      cursor: pointer;
-      font-family: var(--font-sans);
-      transition: all 0.2s;
-    }
-    .lang-btn:hover { border-color: var(--c-accent); color: var(--c-accent); }
-
-    /* PAGE */
-    .page-wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: calc(var(--nav-h) + 5rem) 2rem 6rem;
-    }
-    .page-label {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 0.75rem; font-weight: 500; letter-spacing: 0.12em;
-      text-transform: uppercase; color: var(--c-accent);
-      background: var(--c-accent-light);
-      padding: 5px 14px; border-radius: 50px;
-      margin-bottom: 1.5rem;
-    }
-    .page-label::before {
-      content: ''; width: 6px; height: 6px;
-      background: var(--c-accent); border-radius: 50%;
-    }
-    .page-title {
-      font-family: var(--font-serif);
-      font-size: clamp(2rem, 4vw, 2.8rem);
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      color: var(--c-ink);
-      margin-bottom: 0.75rem;
-    }
-    .page-meta {
-      font-size: 0.85rem;
-      color: var(--c-ink-3);
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--c-border);
-    }
-
-    /* CONTENT */
-    .doc-body h2 {
-      font-family: var(--font-serif);
-      font-size: 1.4rem;
-      color: var(--c-ink);
-      margin: 2.5rem 0 0.75rem;
-      letter-spacing: -0.01em;
-    }
-    .doc-body h3 {
-      font-size: 1rem;
-      font-weight: 500;
-      color: var(--c-ink);
-      margin: 1.75rem 0 0.5rem;
-    }
-    .doc-body p {
-      font-size: 0.95rem;
-      color: var(--c-ink-2);
-      margin-bottom: 1rem;
-      line-height: 1.8;
-    }
-    .doc-body ul {
-      list-style: none;
-      margin: 0.5rem 0 1rem;
-      padding: 0;
-    }
-    .doc-body ul li {
-      font-size: 0.95rem;
-      color: var(--c-ink-2);
-      line-height: 1.8;
-      padding-left: 1.25rem;
-      position: relative;
-      margin-bottom: 0.4rem;
-    }
-    .doc-body ul li::before {
-      content: '';
-      position: absolute; left: 0; top: 0.65em;
-      width: 5px; height: 5px;
-      background: var(--c-accent);
-      border-radius: 50%;
-    }
-    .doc-body .highlight-box {
-      background: var(--c-accent-light);
-      border-left: 3px solid var(--c-accent);
-      border-radius: 0 10px 10px 0;
-      padding: 1rem 1.25rem;
-      margin: 1.5rem 0;
-    }
-    .doc-body .highlight-box p {
-      margin: 0;
-      font-size: 0.92rem;
-      color: var(--c-accent);
-      font-weight: 500;
-    }
-    .doc-body .notice-box {
-      background: var(--c-surface);
-      border: 1px solid var(--c-border);
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-      margin: 1.5rem 0;
-    }
-    .doc-body .notice-box p {
-      margin: 0;
-      font-size: 0.88rem;
-      color: var(--c-ink-3);
-    }
-    hr {
-      border: none;
-      border-top: 1px solid var(--c-border);
-      margin: 2.5rem 0;
-    }
-
-    /* FOOTER */
-    footer {
-      background: var(--c-ink);
-      color: rgba(255,255,255,0.55);
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.82rem;
-    }
-    .footer-links { display: flex; justify-content: center; gap: 2rem; margin-top: 0.5rem; flex-wrap: wrap; }
-    .footer-links a { color: rgba(255,255,255,0.4); font-size: 0.82rem; transition: color 0.2s; }
-    .footer-links a:hover { color: #fff; text-decoration: none; }
-
-    @media (max-width: 600px) {
-      .page-wrap { padding-left: 1.25rem; padding-right: 1.25rem; }
-    }
+    :root{--primary:#0A3A73;--secondary:#06254A;--accent:#5D726B;--bg-alt:#E9EDF2;--bg-main:#FFFFFF;--text-main:#1F2937;--text-muted:#6C7A89;--border:#D8DDE5;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{font-family:'Montserrat',sans-serif;background:var(--bg-main);color:var(--text-main);font-size:15px;line-height:1.7;font-weight:400;}
+    a{text-decoration:none;}
+    nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:0 5%;height:64px;background:var(--secondary);}
+    .nav-logo img{height:32px;display:block;}
+    .nav-back{color:rgba(255,255,255,0.75);font-size:13px;font-weight:600;letter-spacing:0.05em;display:flex;align-items:center;gap:6px;transition:color 0.2s;}
+    .nav-back:hover{color:#fff;}
+    .btn-lang{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.9);font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;padding:5px 11px;border-radius:3px;cursor:pointer;letter-spacing:0.07em;transition:all 0.2s;}
+    .btn-lang:hover{background:rgba(255,255,255,0.18);}
+    .page-hero{background:var(--secondary);padding:120px 5% 60px;text-align:center;}
+    .page-hero-tag{display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,0.5);font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:14px;}
+    .page-hero h1{font-size:clamp(28px,4vw,48px);font-weight:800;color:#fff;letter-spacing:-0.02em;margin-bottom:12px;}
+    .page-hero p{color:rgba(255,255,255,0.5);font-size:14px;font-weight:300;}
+    .content-wrap{max-width:800px;margin:0 auto;padding:72px 5%;}
+    .section-block{margin-bottom:44px;}
+    .section-block h2{font-size:18px;font-weight:700;color:var(--secondary);margin-bottom:12px;padding-bottom:10px;border-bottom:2px solid var(--bg-alt);}
+    .section-block p{color:var(--text-muted);font-size:14px;font-weight:300;margin-bottom:12px;line-height:1.8;}
+    .section-block ul{list-style:none;margin:12px 0;}
+    .section-block ul li{color:var(--text-muted);font-size:14px;font-weight:300;padding:6px 0;display:flex;align-items:flex-start;gap:8px;}
+    .section-block ul li::before{content:'•';color:var(--primary);font-weight:700;flex-shrink:0;}
+    .highlight-box{background:var(--bg-alt);border-left:3px solid var(--primary);border-radius:4px;padding:18px 22px;margin:20px 0;}
+    .highlight-box p{color:var(--text-muted);font-size:13px;font-weight:400;margin:0;}
+    footer{background:var(--secondary);padding:40px 5%;text-align:center;}
+    footer img{height:36px;margin-bottom:10px;}
+    footer p{color:rgba(255,255,255,0.3);font-size:12px;}
+    footer a{color:rgba(255,255,255,0.45);font-size:12px;transition:color 0.2s;margin:0 10px;}
+    footer a:hover{color:rgba(255,255,255,0.8);}
+    .footer-links{margin:12px 0 6px;}
   </style>
 </head>
 <body>
-
 <nav>
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo">Andrik Santos</a>
-    <div class="nav-right">
-      <a href="index.html" class="nav-back">
-        ← <span data-lang-inline="es">Volver al inicio</span><span data-lang-inline="en">Back to home</span>
-      </a>
-      <button class="lang-btn" onclick="toggleLang()" id="lang-toggle">EN</button>
-    </div>
-  </div>
+  <a href="index.html" class="nav-logo"><img src="assets2/img/logowhite.png" alt="Andrik Santos"></a>
+  <a href="index.html" class="nav-back">← <span data-es="Volver al inicio" data-en="Back to home">Volver al inicio</span></a>
+  <button class="btn-lang" onclick="toggleLangT()"><span id="tflag">🇺🇸</span><span id="tlabel">EN</span></button>
 </nav>
 
-<main class="page-wrap">
+<div class="page-hero">
+  <div class="page-hero-tag">Legal · <span data-es="Términos" data-en="Terms">Términos</span></div>
+  <h1 data-es="Términos y Condiciones de Uso" data-en="Terms and Conditions of Use">Términos y Condiciones de Uso</h1>
+  <p data-es="Última actualización: 1 de junio de 2026" data-en="Last updated: June 1, 2026">Última actualización: 1 de junio de 2026</p>
+</div>
 
-  <span class="page-label">
-    <span data-lang-inline="es">Legal</span><span data-lang-inline="en">Legal</span>
-  </span>
+<div class="content-wrap">
 
-  <h1 class="page-title">
-    <span data-lang="es">Términos de Servicio</span>
-    <span data-lang="en">Terms of Service</span>
-  </h1>
-
-  <p class="page-meta">
-    <span data-lang-inline="es">Última actualización:</span>
-    <span data-lang-inline="en">Last updated:</span>
-    Mayo 2025 &nbsp;·&nbsp; andriksantos.github.io
-  </p>
-
-  <div class="doc-body">
-
-    <!-- ES -->
-    <div data-lang="es">
-
-      <div class="highlight-box">
-        <p>Al utilizar este sitio web o contratar mis servicios, aceptas los siguientes términos y condiciones. Por favor, léelos detenidamente.</p>
-      </div>
-
-      <h2>1. Aceptación de los términos</h2>
-      <p>Al acceder y utilizar el sitio web <a href="https://andriksantos.github.io">andriksantos.github.io</a> o al contratar cualquier servicio ofrecido por Andrik Santos, aceptas quedar vinculado por estos Términos de Servicio. Si no estás de acuerdo con alguno de estos términos, te pedimos que no uses el sitio ni contrates nuestros servicios.</p>
-
-      <h2>2. Descripción de servicios</h2>
-      <p>Andrik Santos ofrece servicios profesionales en las siguientes áreas:</p>
-      <ul>
-        <li>Estrategia de negocio y consultoría empresarial</li>
-        <li>Gestión de proyectos IT y consultoría tecnológica</li>
-        <li>Análisis de datos y Business Intelligence</li>
-        <li>Marketing digital y estrategia de marca</li>
-        <li>Optimización de operaciones</li>
-        <li>Formación y capacitación profesional</li>
-      </ul>
-      <p>El alcance específico de cada servicio se detalla en la propuesta o contrato acordado con cada cliente.</p>
-
-      <h2>3. Proceso de contratación</h2>
-      <h3>Cotización y propuesta</h3>
-      <p>Todo proyecto comienza con una consulta inicial gratuita. Tras entender tus necesidades, se elaborará una propuesta personalizada con alcance, entregables, plazos y precio.</p>
-
-      <h3>Confirmación del proyecto</h3>
-      <p>El proyecto se considera confirmado una vez que el cliente acepta la propuesta formalmente y se completa el pago del depósito inicial acordado.</p>
-
-      <h3>Pagos</h3>
-      <p>Las condiciones de pago estándar son:</p>
-      <ul>
-        <li>Depósito inicial del 50% para iniciar el proyecto</li>
-        <li>Saldo restante (50%) a la entrega de los entregables finales</li>
-        <li>Para proyectos de larga duración, se acordarán pagos parciales según hitos</li>
-      </ul>
-      <p>Se aceptan los siguientes métodos de pago: transferencia bancaria, PayPal y tarjeta de crédito/débito.</p>
-
-      <h2>4. Entregables y revisiones</h2>
-      <p>Cada propuesta especifica el número de revisiones incluidas. Las revisiones adicionales más allá de las acordadas pueden generar cargos extra, que serán comunicados previamente. El cliente tiene la responsabilidad de proporcionar feedback oportuno para no retrasar los plazos de entrega.</p>
-
-      <h2>5. Propiedad intelectual</h2>
-      <h3>Propiedad del cliente</h3>
-      <p>Una vez completado el pago total, los entregables finales pasan a ser propiedad del cliente, salvo que se acuerde lo contrario por escrito.</p>
-
-      <h3>Propiedad de Andrik Santos</h3>
-      <p>Las metodologías, herramientas, plantillas, conocimientos y procesos utilizados durante el proyecto siguen siendo propiedad de Andrik Santos. Me reservo el derecho de usar el proyecto como referencia en mi portfolio, salvo que el cliente solicite expresamente confidencialidad.</p>
-
-      <h2>6. Confidencialidad</h2>
-      <p>Toda la información del cliente tratada durante el proyecto se mantiene estrictamente confidencial. No compartiré información sensible del negocio con terceros sin el consentimiento explícito del cliente.</p>
-
-      <h2>7. Limitación de responsabilidad</h2>
-      <p>Andrik Santos se compromete a entregar servicios de la más alta calidad profesional. Sin embargo, no se puede garantizar resultados específicos de negocio, ya que estos dependen de múltiples factores externos. La responsabilidad máxima en caso de disputa se limita al importe pagado por el servicio en cuestión.</p>
-
-      <div class="notice-box">
-        <p>Los resultados de negocio (ventas, tráfico, conversiones, etc.) dependen de la implementación del cliente, del mercado y de factores externos fuera de nuestro control directo.</p>
-      </div>
-
-      <h2>8. Cancelaciones y reembolsos</h2>
-      <ul>
-        <li><strong>Cancelación por el cliente:</strong> el depósito inicial no es reembolsable si el trabajo ya ha comenzado. Si se cancela antes de iniciar, se evaluará cada caso.</li>
-        <li><strong>Cancelación por Andrik Santos:</strong> en el improbable caso de no poder completar el proyecto, se reembolsará la parte proporcional no entregada.</li>
-        <li><strong>Satisfacción garantizada:</strong> trabajamos hasta que el resultado cumpla con el alcance acordado en la propuesta.</li>
-      </ul>
-
-      <h2>9. Uso del sitio web</h2>
-      <p>Al usar este sitio web, te comprometes a:</p>
-      <ul>
-        <li>No usar el sitio para fines ilegales o no autorizados</li>
-        <li>No intentar acceder a áreas restringidas o datos de otros usuarios</li>
-        <li>No reproducir, distribuir o modificar el contenido sin autorización expresa</li>
-      </ul>
-
-      <h2>10. Modificaciones de los términos</h2>
-      <p>Estos términos pueden actualizarse periódicamente. Los proyectos en curso se regirán por los términos vigentes en el momento de su contratación. Para nuevas contrataciones, aplican los términos más recientes publicados en esta página.</p>
-
-      <h2>11. Ley aplicable</h2>
-      <p>Estos términos se rigen por las leyes de la República de Honduras. Cualquier disputa que no pueda resolverse amigablemente será sometida a los tribunales competentes.</p>
-
-      <h2>12. Contacto</h2>
-      <p>Para cualquier consulta sobre estos términos, contáctanos en:</p>
-      <ul>
-        <li>Email: <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a></li>
-        <li>WhatsApp: <a href="https://api.whatsapp.com/send?phone=50496679577" target="_blank" rel="noopener">+504 9667-9577</a></li>
-      </ul>
-
-    </div>
-
-    <!-- EN -->
-    <div data-lang="en">
-
-      <div class="highlight-box">
-        <p>By using this website or engaging my services, you agree to the following terms and conditions. Please read them carefully.</p>
-      </div>
-
-      <h2>1. Acceptance of Terms</h2>
-      <p>By accessing and using <a href="https://andriksantos.github.io">andriksantos.github.io</a> or by engaging any services offered by Andrik Santos, you agree to be bound by these Terms of Service. If you disagree with any of these terms, please do not use the site or engage our services.</p>
-
-      <h2>2. Description of Services</h2>
-      <p>Andrik Santos offers professional services in the following areas:</p>
-      <ul>
-        <li>Business strategy and management consulting</li>
-        <li>IT project management and technology consulting</li>
-        <li>Data analysis and Business Intelligence</li>
-        <li>Digital marketing and brand strategy</li>
-        <li>Operations optimization</li>
-        <li>Professional training and development</li>
-      </ul>
-      <p>The specific scope of each service is detailed in the proposal or contract agreed upon with each client.</p>
-
-      <h2>3. Engagement Process</h2>
-      <h3>Quote and proposal</h3>
-      <p>Every project begins with a free initial consultation. After understanding your needs, a personalized proposal will be prepared with scope, deliverables, timelines, and pricing.</p>
-
-      <h3>Project confirmation</h3>
-      <p>A project is considered confirmed once the client formally accepts the proposal and the agreed initial deposit payment is completed.</p>
-
-      <h3>Payments</h3>
-      <p>Standard payment terms are:</p>
-      <ul>
-        <li>50% initial deposit to begin the project</li>
-        <li>Remaining balance (50%) upon delivery of final deliverables</li>
-        <li>For long-term projects, milestone-based partial payments will be agreed upon</li>
-      </ul>
-      <p>The following payment methods are accepted: bank transfer, PayPal, and credit/debit card.</p>
-
-      <h2>4. Deliverables and Revisions</h2>
-      <p>Each proposal specifies the number of revisions included. Additional revisions beyond what was agreed may incur extra charges, which will be communicated in advance. The client is responsible for providing timely feedback to avoid delays in delivery timelines.</p>
-
-      <h2>5. Intellectual Property</h2>
-      <h3>Client ownership</h3>
-      <p>Once full payment is completed, the final deliverables become the client's property, unless otherwise agreed in writing.</p>
-
-      <h3>Andrik Santos ownership</h3>
-      <p>The methodologies, tools, templates, knowledge, and processes used during the project remain the property of Andrik Santos. I reserve the right to reference the project in my portfolio, unless the client expressly requests confidentiality.</p>
-
-      <h2>6. Confidentiality</h2>
-      <p>All client information handled during the project is kept strictly confidential. I will not share sensitive business information with third parties without the client's explicit consent.</p>
-
-      <h2>7. Limitation of Liability</h2>
-      <p>Andrik Santos is committed to delivering the highest quality professional services. However, specific business results cannot be guaranteed, as they depend on many external factors. Maximum liability in the event of a dispute is limited to the amount paid for the service in question.</p>
-
-      <div class="notice-box">
-        <p>Business results (sales, traffic, conversions, etc.) depend on the client's implementation, market conditions, and external factors beyond our direct control.</p>
-      </div>
-
-      <h2>8. Cancellations and Refunds</h2>
-      <ul>
-        <li><strong>Cancellation by client:</strong> the initial deposit is non-refundable once work has begun. If cancelled before work starts, each case will be evaluated individually.</li>
-        <li><strong>Cancellation by Andrik Santos:</strong> in the unlikely event of being unable to complete the project, a proportional refund for undelivered work will be issued.</li>
-        <li><strong>Satisfaction guaranteed:</strong> we work until the result meets the scope agreed in the proposal.</li>
-      </ul>
-
-      <h2>9. Website Use</h2>
-      <p>By using this website, you agree to:</p>
-      <ul>
-        <li>Not use the site for illegal or unauthorized purposes</li>
-        <li>Not attempt to access restricted areas or other users' data</li>
-        <li>Not reproduce, distribute, or modify content without express authorization</li>
-      </ul>
-
-      <h2>10. Modifications to Terms</h2>
-      <p>These terms may be updated periodically. Ongoing projects will be governed by the terms in effect at the time of engagement. For new engagements, the most recent terms published on this page apply.</p>
-
-      <h2>11. Governing Law</h2>
-      <p>These terms are governed by the laws of the Republic of Honduras. Any dispute that cannot be resolved amicably will be submitted to the competent courts.</p>
-
-      <h2>12. Contact</h2>
-      <p>For any questions about these terms, contact us at:</p>
-      <ul>
-        <li>Email: <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a></li>
-        <li>WhatsApp: <a href="https://api.whatsapp.com/send?phone=50496679577" target="_blank" rel="noopener">+504 9667-9577</a></li>
-      </ul>
-
-    </div>
-
+  <div class="section-block">
+    <h2 data-es="1. Aceptación de los términos" data-en="1. Acceptance of Terms">1. Aceptación de los términos</h2>
+    <p data-es="Al acceder y utilizar el sitio web andriksantos.github.io, usted acepta estar sujeto a estos Términos y Condiciones de Uso y a nuestra Política de Privacidad. Si no está de acuerdo con alguno de estos términos, le rogamos que no utilice este sitio."
+       data-en="By accessing and using the website andriksantos.github.io, you agree to be bound by these Terms and Conditions of Use and our Privacy Policy. If you do not agree with any of these terms, please do not use this site.">
+      Al acceder y utilizar el sitio web andriksantos.github.io, usted acepta estar sujeto a estos Términos y Condiciones de Uso y a nuestra Política de Privacidad.
+    </p>
   </div>
-</main>
+
+  <div class="section-block">
+    <h2 data-es="2. Descripción de los servicios" data-en="2. Description of Services">2. Descripción de los servicios</h2>
+    <p data-es="Andrik Santos ofrece servicios profesionales en las siguientes áreas:" data-en="Andrik Santos offers professional services in the following areas:">Andrik Santos ofrece servicios profesionales en las siguientes áreas:</p>
+    <ul>
+      <li data-es="Marketing digital y estrategia de marca" data-en="Digital marketing and brand strategy">Marketing digital y estrategia de marca</li>
+      <li data-es="Diseño gráfico e identidad visual" data-en="Graphic design and visual identity">Diseño gráfico e identidad visual</li>
+      <li data-es="Community manager y administración de redes sociales" data-en="Community manager and social media management">Community manager y administración de redes sociales</li>
+      <li data-es="Servicio de compras nacionales e internacionales" data-en="National and international purchasing service">Servicio de compras nacionales e internacionales</li>
+      <li data-es="Organización y planificación de eventos" data-en="Event organization and planning">Organización y planificación de eventos</li>
+    </ul>
+    <p data-es="Los detalles, alcance y condiciones específicas de cada servicio se establecen en la propuesta o contrato individual acordado con cada cliente."
+       data-en="The details, scope, and specific conditions of each service are established in the individual proposal or contract agreed with each client.">
+      Los detalles, alcance y condiciones específicas de cada servicio se establecen en la propuesta o contrato individual acordado con cada cliente.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="3. Uso del sitio web" data-en="3. Website Use">3. Uso del sitio web</h2>
+    <p data-es="Al usar este sitio web, usted se compromete a:" data-en="By using this website, you agree to:">Al usar este sitio web, usted se compromete a:</p>
+    <ul>
+      <li data-es="No utilizar el sitio para fines ilegales o no autorizados" data-en="Not use the site for illegal or unauthorized purposes">No utilizar el sitio para fines ilegales o no autorizados</li>
+      <li data-es="No interferir con el funcionamiento normal del sitio" data-en="Not interfere with the normal operation of the site">No interferir con el funcionamiento normal del sitio</li>
+      <li data-es="No intentar acceder a áreas restringidas del sitio" data-en="Not attempt to access restricted areas of the site">No intentar acceder a áreas restringidas del sitio</li>
+      <li data-es="Proporcionar información veraz y actualizada en los formularios" data-en="Provide accurate and current information in forms">Proporcionar información veraz y actualizada en los formularios</li>
+      <li data-es="No reproducir el contenido del sitio sin autorización previa" data-en="Not reproduce site content without prior authorization">No reproducir el contenido del sitio sin autorización previa</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="4. Propiedad intelectual" data-en="4. Intellectual Property">4. Propiedad intelectual</h2>
+    <p data-es="Todo el contenido de este sitio web, incluyendo textos, imágenes, logotipos, diseños y demás elementos, es propiedad de Andrik Santos y está protegido por las leyes de propiedad intelectual aplicables. Queda prohibida la reproducción, distribución o modificación sin autorización expresa por escrito."
+       data-en="All content on this website, including texts, images, logos, designs, and other elements, is the property of Andrik Santos and is protected by applicable intellectual property laws. Reproduction, distribution, or modification without express written authorization is prohibited.">
+      Todo el contenido de este sitio web, incluyendo textos, imágenes, logotipos, diseños y demás elementos, es propiedad de Andrik Santos y está protegido por las leyes de propiedad intelectual aplicables.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="5. Condiciones de contratación" data-en="5. Contracting Conditions">5. Condiciones de contratación</h2>
+    <p data-es="La contratación de servicios está sujeta a las siguientes condiciones generales:" data-en="The contracting of services is subject to the following general conditions:">La contratación de servicios está sujeta a las siguientes condiciones generales:</p>
+    <ul>
+      <li data-es="Se requiere una propuesta escrita y aceptada antes de iniciar cualquier trabajo" data-en="A written and accepted proposal is required before starting any work">Se requiere una propuesta escrita y aceptada antes de iniciar cualquier trabajo</li>
+      <li data-es="Se solicita un pago inicial (anticipo) para comenzar el proyecto" data-en="An initial payment (advance) is required to start the project">Se solicita un pago inicial (anticipo) para comenzar el proyecto</li>
+      <li data-es="El saldo restante se acuerda según las condiciones del contrato específico" data-en="The remaining balance is agreed per the specific contract conditions">El saldo restante se acuerda según las condiciones del contrato específico</li>
+      <li data-es="Las revisiones se realizan según el alcance establecido en la propuesta" data-en="Revisions are made per the scope established in the proposal">Las revisiones se realizan según el alcance establecido en la propuesta</li>
+      <li data-es="Los tiempos de entrega son los acordados en la propuesta individual" data-en="Delivery times are those agreed in the individual proposal">Los tiempos de entrega son los acordados en la propuesta individual</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="6. Limitación de responsabilidad" data-en="6. Limitation of Liability">6. Limitación de responsabilidad</h2>
+    <p data-es="Andrik Santos no será responsable por daños indirectos, incidentales, especiales o consecuentes que resulten del uso o la imposibilidad de uso de los servicios o del sitio web. La responsabilidad máxima estará limitada al monto pagado por el servicio en cuestión."
+       data-en="Andrik Santos shall not be liable for indirect, incidental, special, or consequential damages resulting from the use or inability to use the services or website. Maximum liability shall be limited to the amount paid for the service in question.">
+      Andrik Santos no será responsable por daños indirectos, incidentales, especiales o consecuentes que resulten del uso o la imposibilidad de uso de los servicios o del sitio web.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="7. Cancelaciones y reembolsos" data-en="7. Cancellations and Refunds">7. Cancelaciones y reembolsos</h2>
+    <p data-es="Las condiciones de cancelación y reembolso se establecen en cada contrato de servicio específico. En general:" data-en="Cancellation and refund conditions are established in each specific service contract. In general:">Las condiciones de cancelación y reembolsos se establecen en cada contrato de servicio específico. En general:</p>
+    <ul>
+      <li data-es="Los anticipos no son reembolsables una vez iniciado el proyecto" data-en="Advances are non-refundable once the project has started">Los anticipos no son reembolsables una vez iniciado el proyecto</li>
+      <li data-es="Las cancelaciones deben notificarse por escrito con al menos 48 horas de anticipación" data-en="Cancellations must be notified in writing at least 48 hours in advance">Las cancelaciones deben notificarse por escrito con al menos 48 horas de anticipación</li>
+      <li data-es="Los reembolsos por trabajo no completado se evaluarán caso por caso" data-en="Refunds for incomplete work will be evaluated on a case-by-case basis">Los reembolsos por trabajo no completado se evaluarán caso por caso</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="8. Ley aplicable y jurisdicción" data-en="8. Applicable Law and Jurisdiction">8. Ley aplicable y jurisdicción</h2>
+    <p data-es="Estos Términos se rigen por las leyes de la República de Honduras. Cualquier disputa que surja en relación con estos Términos será sometida a la jurisdicción de los tribunales competentes de San Pedro Sula, Cortés, Honduras."
+       data-en="These Terms are governed by the laws of the Republic of Honduras. Any dispute arising in connection with these Terms will be submitted to the jurisdiction of the competent courts of San Pedro Sula, Cortés, Honduras.">
+      Estos Términos se rigen por las leyes de la República de Honduras. Cualquier disputa será sometida a la jurisdicción de los tribunales competentes de San Pedro Sula, Cortés, Honduras.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="9. Modificaciones" data-en="9. Modifications">9. Modificaciones</h2>
+    <p data-es="Nos reservamos el derecho de modificar estos Términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en el sitio web. El uso continuado del sitio después de la publicación de cambios constituye su aceptación de los mismos."
+       data-en="We reserve the right to modify these Terms at any time. Modifications will take effect immediately upon publication on the website. Continued use of the site after publication of changes constitutes your acceptance of them.">
+      Nos reservamos el derecho de modificar estos Términos en cualquier momento. El uso continuado del sitio después de la publicación de cambios constituye su aceptación de los mismos.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="10. Contacto" data-en="10. Contact">10. Contacto</h2>
+    <p data-es="Para preguntas sobre estos Términos de Uso:" data-en="For questions about these Terms of Use:">Para preguntas sobre estos Términos de Uso:</p>
+    <div class="highlight-box">
+      <p>📧 andricksantos1@gmail.com<br>💬 WhatsApp: <a href="https://wa.me/50496679577" style="color:var(--primary)">+504 9667-9577</a><br>📍 San Pedro Sula, Cortés, Honduras</p>
+    </div>
+  </div>
+
+</div>
 
 <footer>
-  <div>© <script>document.write(new Date().getFullYear());</script> Andrik Santos ™</div>
+  <img src="assets2/img/logowhite.png" alt="Andrik Santos">
   <div class="footer-links">
-    <a href="index.html"><span data-lang-inline="es">Inicio</span><span data-lang-inline="en">Home</span></a>
-    <a href="privacy.html"><span data-lang-inline="es">Privacidad</span><span data-lang-inline="en">Privacy</span></a>
-    <a href="terms.html"><span data-lang-inline="es">Términos</span><span data-lang-inline="en">Terms</span></a>
-    <a href="mailto:andricksantos1@gmail.com">Email</a>
+    <a href="index.html" data-es="Inicio" data-en="Home">Inicio</a>
+    <a href="privacy.html" data-es="Privacidad" data-en="Privacy">Privacidad</a>
+    <a href="terms.html" data-es="Términos" data-en="Terms">Términos</a>
   </div>
+  <p>© <script>document.write(new Date().getFullYear());</script> Andrik Santos. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
 </footer>
 
 <script>
-  let isEn = false;
-  function toggleLang() {
-    isEn = !isEn;
-    document.body.classList.toggle('lang-en', isEn);
-    document.getElementById('lang-toggle').textContent = isEn ? 'ES' : 'EN';
-    document.getElementById('html-root').lang = isEn ? 'en' : 'es';
-  }
+let tLang='es';
+function detectLangT(){const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';const lang=navigator.language||'es';const latam=['America/Tegucigalda','America/Mexico_City','America/Bogota','America/Lima','America/Santiago','America/Buenos_Aires','America/Caracas','America/Guatemala','America/Costa_Rica','America/El_Salvador','America/Panama','America/Santo_Domingo','America/Havana','America/Puerto_Rico','America/Cancun','America/Sao_Paulo'];return(latam.some(t=>tz.includes(t))||lang.startsWith('es')||lang.startsWith('pt'))?'es':'en';}
+function applyLangT(lang){tLang=lang;document.documentElement.lang=lang;document.querySelectorAll('[data-es],[data-en]').forEach(el=>{const v=el.getAttribute('data-'+lang);if(v!==null)el.textContent=v;});document.getElementById('tflag').textContent=lang==='es'?'🇺🇸':'🇭🇳';document.getElementById('tlabel').textContent=lang==='es'?'EN':'ES';}
+function toggleLangT(){applyLangT(tLang==='es'?'en':'es');}
+document.addEventListener('DOMContentLoaded',()=>applyLangT(detectLangT()));
 </script>
 </body>
 </html>

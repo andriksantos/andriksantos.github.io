@@ -1,437 +1,182 @@
 <!DOCTYPE html>
-<html lang="es" id="html-root">
+<html lang="es" data-lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidad — Andrik Santos</title>
-  <meta name="description" content="Política de privacidad de Andrik Santos. Conoce cómo recopilamos, usamos y protegemos tu información personal." />
-  <meta name="robots" content="noindex, follow" />
-  <link rel="canonical" href="https://andriksantos.github.io/privacy.html" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad | Andrik Santos</title>
+  <meta name="description" content="Política de Privacidad de Andrik Santos. Información sobre el tratamiento de tus datos personales.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://andriksantos.github.io/privacy.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  
   <!-- Favicons -->
   <link href="assets2/img/logooriginal.png" rel="icon">
   <link href="assets2/img/logooriginal.png" rel="apple-touch-icon">
 
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --c-bg: #F7F6F2;
-      --c-surface: #FFFFFF;
-      --c-ink: #1A1A18;
-      --c-ink-2: #5A5A54;
-      --c-ink-3: #9A9A94;
-      --c-accent: #2C6E5A;
-      --c-accent-light: #E1F5EE;
-      --c-accent-mid: #9FE1CB;
-      --c-border: rgba(26,26,24,0.10);
-      --font-sans: 'DM Sans', sans-serif;
-      --font-serif: 'DM Serif Display', serif;
-      --nav-h: 68px;
-      --max: 760px;
-    }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: var(--font-sans);
-      background: var(--c-bg);
-      color: var(--c-ink);
-      line-height: 1.75;
-      font-size: 16px;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: var(--c-accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    /* LANG */
-    [data-lang="es"] { display: block; }
-    [data-lang="en"] { display: none; }
-    .lang-en [data-lang="es"] { display: none; }
-    .lang-en [data-lang="en"] { display: block; }
-    [data-lang-inline="es"] { display: inline; }
-    [data-lang-inline="en"] { display: none; }
-    .lang-en [data-lang-inline="es"] { display: none; }
-    .lang-en [data-lang-inline="en"] { display: inline; }
-
-    /* NAV */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      height: var(--nav-h);
-      background: rgba(247,246,242,0.92);
-      backdrop-filter: blur(14px);
-      border-bottom: 1px solid var(--c-border);
-      display: flex; align-items: center;
-    }
-    .nav-inner {
-      width: 100%; max-width: 1100px;
-      margin: 0 auto; padding: 0 2rem;
-      display: flex; align-items: center; justify-content: space-between;
-    }
-    .nav-logo {
-      font-family: var(--font-serif);
-      font-size: 1.2rem;
-      color: var(--c-ink);
-      letter-spacing: -0.02em;
-      text-decoration: none;
-    }
-    .nav-right { display: flex; align-items: center; gap: 1rem; }
-    .nav-back {
-      font-size: 0.85rem;
-      color: var(--c-ink-2);
-      display: flex; align-items: center; gap: 6px;
-      transition: color 0.2s;
-    }
-    .nav-back:hover { color: var(--c-accent); text-decoration: none; }
-    .lang-btn {
-      font-size: 0.8rem; font-weight: 500;
-      color: var(--c-ink-2);
-      background: none;
-      border: 1px solid var(--c-border);
-      border-radius: 50px;
-      padding: 4px 14px;
-      cursor: pointer;
-      font-family: var(--font-sans);
-      transition: all 0.2s;
-    }
-    .lang-btn:hover { border-color: var(--c-accent); color: var(--c-accent); }
-
-    /* PAGE */
-    .page-wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: calc(var(--nav-h) + 5rem) 2rem 6rem;
-    }
-
-    /* HEADER */
-    .page-label {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 0.75rem; font-weight: 500; letter-spacing: 0.12em;
-      text-transform: uppercase; color: var(--c-accent);
-      background: var(--c-accent-light);
-      padding: 5px 14px; border-radius: 50px;
-      margin-bottom: 1.5rem;
-    }
-    .page-label::before {
-      content: ''; width: 6px; height: 6px;
-      background: var(--c-accent); border-radius: 50%;
-    }
-    .page-title {
-      font-family: var(--font-serif);
-      font-size: clamp(2rem, 4vw, 2.8rem);
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      color: var(--c-ink);
-      margin-bottom: 0.75rem;
-    }
-    .page-meta {
-      font-size: 0.85rem;
-      color: var(--c-ink-3);
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--c-border);
-    }
-
-    /* CONTENT */
-    .doc-body h2 {
-      font-family: var(--font-serif);
-      font-size: 1.4rem;
-      color: var(--c-ink);
-      margin: 2.5rem 0 0.75rem;
-      letter-spacing: -0.01em;
-    }
-    .doc-body h3 {
-      font-size: 1rem;
-      font-weight: 500;
-      color: var(--c-ink);
-      margin: 1.75rem 0 0.5rem;
-    }
-    .doc-body p {
-      font-size: 0.95rem;
-      color: var(--c-ink-2);
-      margin-bottom: 1rem;
-      line-height: 1.8;
-    }
-    .doc-body ul {
-      list-style: none;
-      margin: 0.5rem 0 1rem;
-      padding: 0;
-    }
-    .doc-body ul li {
-      font-size: 0.95rem;
-      color: var(--c-ink-2);
-      line-height: 1.8;
-      padding-left: 1.25rem;
-      position: relative;
-      margin-bottom: 0.4rem;
-    }
-    .doc-body ul li::before {
-      content: '';
-      position: absolute; left: 0; top: 0.65em;
-      width: 5px; height: 5px;
-      background: var(--c-accent);
-      border-radius: 50%;
-    }
-    .doc-body .highlight-box {
-      background: var(--c-accent-light);
-      border-left: 3px solid var(--c-accent);
-      border-radius: 0 10px 10px 0;
-      padding: 1rem 1.25rem;
-      margin: 1.5rem 0;
-    }
-    .doc-body .highlight-box p {
-      margin: 0;
-      font-size: 0.92rem;
-      color: var(--c-accent);
-      font-weight: 500;
-    }
-
-    /* DIVIDER */
-    hr {
-      border: none;
-      border-top: 1px solid var(--c-border);
-      margin: 2.5rem 0;
-    }
-
-    /* FOOTER */
-    footer {
-      background: var(--c-ink);
-      color: rgba(255,255,255,0.55);
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.82rem;
-    }
-    footer a { color: var(--c-accent-mid); }
-    .footer-links { display: flex; justify-content: center; gap: 2rem; margin-top: 0.5rem; flex-wrap: wrap; }
-    .footer-links a { color: rgba(255,255,255,0.4); font-size: 0.82rem; transition: color 0.2s; }
-    .footer-links a:hover { color: #fff; text-decoration: none; }
-
-    @media (max-width: 600px) {
-      .page-wrap { padding-left: 1.25rem; padding-right: 1.25rem; }
-    }
+    :root{--primary:#0A3A73;--secondary:#06254A;--accent:#5D726B;--bg-alt:#E9EDF2;--bg-main:#FFFFFF;--text-main:#1F2937;--text-muted:#6C7A89;--border:#D8DDE5;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{font-family:'Montserrat',sans-serif;background:var(--bg-main);color:var(--text-main);font-size:15px;line-height:1.7;font-weight:400;}
+    a{text-decoration:none;}
+    nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:0 5%;height:64px;background:var(--secondary);}
+    .nav-logo img{height:32px;display:block;}
+    .nav-back{color:rgba(255,255,255,0.75);font-size:13px;font-weight:600;letter-spacing:0.05em;display:flex;align-items:center;gap:6px;transition:color 0.2s;}
+    .nav-back:hover{color:#fff;}
+    .btn-lang{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.9);font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;padding:5px 11px;border-radius:3px;cursor:pointer;letter-spacing:0.07em;transition:all 0.2s;}
+    .btn-lang:hover{background:rgba(255,255,255,0.18);}
+    .page-hero{background:var(--secondary);padding:120px 5% 60px;text-align:center;}
+    .page-hero-tag{display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,0.5);font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:14px;}
+    .page-hero h1{font-size:clamp(28px,4vw,48px);font-weight:800;color:#fff;letter-spacing:-0.02em;margin-bottom:12px;}
+    .page-hero p{color:rgba(255,255,255,0.5);font-size:14px;font-weight:300;}
+    .content-wrap{max-width:800px;margin:0 auto;padding:72px 5%;}
+    .section-block{margin-bottom:44px;}
+    .section-block h2{font-size:18px;font-weight:700;color:var(--secondary);margin-bottom:12px;padding-bottom:10px;border-bottom:2px solid var(--bg-alt);}
+    .section-block p{color:var(--text-muted);font-size:14px;font-weight:300;margin-bottom:12px;line-height:1.8;}
+    .section-block ul{list-style:none;margin:12px 0;}
+    .section-block ul li{color:var(--text-muted);font-size:14px;font-weight:300;padding:6px 0;display:flex;align-items:flex-start;gap:8px;}
+    .section-block ul li::before{content:'•';color:var(--primary);font-weight:700;flex-shrink:0;}
+    .highlight-box{background:var(--bg-alt);border-left:3px solid var(--primary);border-radius:4px;padding:18px 22px;margin:20px 0;}
+    .highlight-box p{color:var(--text-muted);font-size:13px;font-weight:400;margin:0;}
+    footer{background:var(--secondary);padding:40px 5%;text-align:center;}
+    footer img{height:36px;margin-bottom:10px;}
+    footer p{color:rgba(255,255,255,0.3);font-size:12px;}
+    footer a{color:rgba(255,255,255,0.45);font-size:12px;transition:color 0.2s;margin:0 10px;}
+    footer a:hover{color:rgba(255,255,255,0.8);}
+    .footer-links{margin:12px 0 6px;}
   </style>
 </head>
 <body>
-
 <nav>
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo">Andrik Santos</a>
-    <div class="nav-right">
-      <a href="index.html" class="nav-back">
-        ← <span data-lang-inline="es">Volver al inicio</span><span data-lang-inline="en">Back to home</span>
-      </a>
-      <button class="lang-btn" onclick="toggleLang()" id="lang-toggle">EN</button>
-    </div>
-  </div>
+  <a href="index.html" class="nav-logo"><img src="assets2/img/logowhite.png" alt="Andrik Santos"></a>
+  <a href="index.html" class="nav-back">← <span data-es="Volver al inicio" data-en="Back to home">Volver al inicio</span></a>
+  <button class="btn-lang" onclick="toggleLangPriv()"><span id="pflag">🇺🇸</span><span id="plabel">EN</span></button>
 </nav>
 
-<main class="page-wrap">
+<div class="page-hero">
+  <div class="page-hero-tag">Legal · <span data-es="Privacidad" data-en="Privacy">Privacidad</span></div>
+  <h1 data-es="Política de Privacidad" data-en="Privacy Policy">Política de Privacidad</h1>
+  <p data-es="Última actualización: 1 de junio de 2026" data-en="Last updated: June 1, 2026">Última actualización: 1 de junio de 2026</p>
+</div>
 
-  <span class="page-label">
-    <span data-lang-inline="es">Legal</span><span data-lang-inline="en">Legal</span>
-  </span>
+<div class="content-wrap">
 
-  <h1 class="page-title">
-    <span data-lang="es">Política de Privacidad</span>
-    <span data-lang="en">Privacy Policy</span>
-  </h1>
-
-  <p class="page-meta">
-    <span data-lang-inline="es">Última actualización:</span>
-    <span data-lang-inline="en">Last updated:</span>
-    Mayo 2025 &nbsp;·&nbsp; andriksantos.github.io
-  </p>
-
-  <div class="doc-body">
-
-    <!-- ES -->
-    <div data-lang="es">
-
-      <div class="highlight-box">
-        <p>Tu privacidad es importante. Esta política explica de forma clara qué información recopilamos, cómo la usamos y cómo la protegemos.</p>
-      </div>
-
-      <h2>1. Responsable del tratamiento</h2>
-      <p>El responsable del tratamiento de los datos es <strong>Andrik Santos</strong>, accesible en <a href="https://andriksantos.github.io">andriksantos.github.io</a> y contactable en <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a>.</p>
-
-      <h2>2. Información que recopilamos</h2>
-      <h3>Información que tú proporcionas</h3>
-      <p>Cuando completas el formulario de contacto, recopilamos:</p>
-      <ul>
-        <li>Nombre y apellido</li>
-        <li>Dirección de correo electrónico</li>
-        <li>Asunto y contenido del mensaje</li>
-      </ul>
-
-      <h3>Información recopilada automáticamente</h3>
-      <p>Al navegar por el sitio, se pueden recopilar automáticamente datos técnicos como:</p>
-      <ul>
-        <li>Dirección IP y tipo de navegador</li>
-        <li>Páginas visitadas y tiempo de permanencia</li>
-        <li>Fuente de referencia (cómo llegaste al sitio)</li>
-      </ul>
-
-      <h2>3. Uso de la información</h2>
-      <p>Utilizamos la información recopilada exclusivamente para:</p>
-      <ul>
-        <li>Responder a tus consultas y mensajes</li>
-        <li>Enviarte información sobre servicios que hayas solicitado</li>
-        <li>Mejorar el contenido y la experiencia del sitio web</li>
-        <li>Cumplir con obligaciones legales aplicables</li>
-      </ul>
-      <p>No utilizamos tu información para enviar publicidad no solicitada ni la compartimos con terceros con fines comerciales.</p>
-
-      <h2>4. Base legal del tratamiento</h2>
-      <p>El tratamiento de tus datos se basa en:</p>
-      <ul>
-        <li><strong>Tu consentimiento</strong>, otorgado al completar y enviar el formulario de contacto.</li>
-        <li><strong>Interés legítimo</strong>, para responder consultas y mejorar los servicios ofrecidos.</li>
-      </ul>
-
-      <h2>5. Compartición de datos</h2>
-      <p>No vendemos, alquilamos ni compartimos tu información personal con terceros, salvo en los siguientes casos:</p>
-      <ul>
-        <li><strong>Proveedores de servicios:</strong> utilizamos Formspree para el procesamiento del formulario de contacto. Estos proveedores están sujetos a sus propias políticas de privacidad.</li>
-        <li><strong>Obligación legal:</strong> cuando sea requerido por ley o autoridad competente.</li>
-      </ul>
-
-      <h2>6. Retención de datos</h2>
-      <p>Conservamos tu información personal únicamente durante el tiempo necesario para los fines descritos en esta política, o mientras sea requerido por ley. Los mensajes recibidos por formulario se conservan por un período máximo de 2 años.</p>
-
-      <h2>7. Tus derechos</h2>
-      <p>Tienes derecho a:</p>
-      <ul>
-        <li>Acceder a los datos personales que tenemos sobre ti</li>
-        <li>Solicitar la corrección de datos inexactos</li>
-        <li>Solicitar la eliminación de tus datos</li>
-        <li>Oponerte al tratamiento de tus datos</li>
-        <li>Solicitar la portabilidad de tus datos</li>
-      </ul>
-      <p>Para ejercer cualquiera de estos derechos, escríbenos a <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a>.</p>
-
-      <h2>8. Cookies</h2>
-      <p>Este sitio puede usar cookies técnicas esenciales para su funcionamiento. No utilizamos cookies de seguimiento ni publicidad. Puedes configurar tu navegador para rechazar las cookies, aunque algunas funcionalidades pueden verse afectadas.</p>
-
-      <h2>9. Seguridad</h2>
-      <p>Implementamos medidas técnicas y organizativas razonables para proteger tu información contra acceso no autorizado, pérdida o divulgación. Sin embargo, ninguna transmisión por internet es completamente segura.</p>
-
-      <h2>10. Cambios en esta política</h2>
-      <p>Podemos actualizar esta política periódicamente. Te notificaremos publicando la nueva versión en esta página con la fecha de actualización. Te recomendamos revisarla de forma regular.</p>
-
-      <h2>11. Contacto</h2>
-      <p>Si tienes preguntas sobre esta política o sobre el tratamiento de tus datos, contáctanos en:</p>
-      <ul>
-        <li>Email: <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a></li>
-        <li>WhatsApp: <a href="https://api.whatsapp.com/send?phone=50496679577" target="_blank" rel="noopener">+504 9667-9577</a></li>
-      </ul>
-
-    </div>
-
-    <!-- EN -->
-    <div data-lang="en">
-
-      <div class="highlight-box">
-        <p>Your privacy matters. This policy clearly explains what information we collect, how we use it, and how we protect it.</p>
-      </div>
-
-      <h2>1. Data Controller</h2>
-      <p>The data controller is <strong>Andrik Santos</strong>, accessible at <a href="https://andriksantos.github.io">andriksantos.github.io</a> and reachable at <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a>.</p>
-
-      <h2>2. Information We Collect</h2>
-      <h3>Information you provide</h3>
-      <p>When you complete the contact form, we collect:</p>
-      <ul>
-        <li>Your name</li>
-        <li>Email address</li>
-        <li>Subject and message content</li>
-      </ul>
-
-      <h3>Automatically collected information</h3>
-      <p>When you browse the site, technical data may be collected automatically, such as:</p>
-      <ul>
-        <li>IP address and browser type</li>
-        <li>Pages visited and time spent</li>
-        <li>Referral source (how you found the site)</li>
-      </ul>
-
-      <h2>3. How We Use Your Information</h2>
-      <p>We use the collected information solely to:</p>
-      <ul>
-        <li>Respond to your inquiries and messages</li>
-        <li>Send information about services you have requested</li>
-        <li>Improve site content and user experience</li>
-        <li>Comply with applicable legal obligations</li>
-      </ul>
-      <p>We do not use your information for unsolicited advertising or share it with third parties for commercial purposes.</p>
-
-      <h2>4. Legal Basis for Processing</h2>
-      <p>Processing of your data is based on:</p>
-      <ul>
-        <li><strong>Your consent</strong>, given when you complete and submit the contact form.</li>
-        <li><strong>Legitimate interest</strong>, to respond to inquiries and improve offered services.</li>
-      </ul>
-
-      <h2>5. Data Sharing</h2>
-      <p>We do not sell, rent, or share your personal information with third parties, except in the following cases:</p>
-      <ul>
-        <li><strong>Service providers:</strong> we use Formspree to process the contact form. These providers are subject to their own privacy policies.</li>
-        <li><strong>Legal obligation:</strong> when required by law or competent authority.</li>
-      </ul>
-
-      <h2>6. Data Retention</h2>
-      <p>We retain your personal information only as long as necessary for the purposes described in this policy, or as required by law. Messages received via form are retained for a maximum of 2 years.</p>
-
-      <h2>7. Your Rights</h2>
-      <p>You have the right to:</p>
-      <ul>
-        <li>Access the personal data we hold about you</li>
-        <li>Request correction of inaccurate data</li>
-        <li>Request deletion of your data</li>
-        <li>Object to the processing of your data</li>
-        <li>Request data portability</li>
-      </ul>
-      <p>To exercise any of these rights, write to us at <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a>.</p>
-
-      <h2>8. Cookies</h2>
-      <p>This site may use essential technical cookies necessary for its operation. We do not use tracking or advertising cookies. You can configure your browser to reject cookies, although some functionality may be affected.</p>
-
-      <h2>9. Security</h2>
-      <p>We implement reasonable technical and organizational measures to protect your information against unauthorized access, loss, or disclosure. However, no internet transmission is completely secure.</p>
-
-      <h2>10. Changes to This Policy</h2>
-      <p>We may update this policy periodically. We will notify you by posting the new version on this page with the update date. We recommend reviewing it regularly.</p>
-
-      <h2>11. Contact</h2>
-      <p>If you have questions about this policy or about how your data is handled, contact us at:</p>
-      <ul>
-        <li>Email: <a href="mailto:andricksantos1@gmail.com">andricksantos1@gmail.com</a></li>
-        <li>WhatsApp: <a href="https://api.whatsapp.com/send?phone=50496679577" target="_blank" rel="noopener">+504 9667-9577</a></li>
-      </ul>
-
-    </div>
-
+  <div class="section-block">
+    <h2 data-es="1. Responsable del tratamiento" data-en="1. Data Controller">1. Responsable del tratamiento</h2>
+    <p data-es="Andrik Reynaldo Santos Maradiaga ('Andrik Santos'), con sede en San Pedro Sula, Cortés, Honduras, es el responsable del tratamiento de los datos personales que se recopilan a través del sitio web andriksantos.github.io."
+       data-en="Andrik Reynaldo Santos Maradiaga ('Andrik Santos'), based in San Pedro Sula, Cortés, Honduras, is the data controller for personal data collected through the website andriksantos.github.io.">
+      Andrik Reynaldo Santos Maradiaga ("Andrik Santos"), con sede en San Pedro Sula, Cortés, Honduras, es el responsable del tratamiento de los datos personales que se recopilan a través del sitio web andriksantos.github.io.
+    </p>
+    <div class="highlight-box"><p>Email: andricksantos1@gmail.com · WhatsApp: +504 9667-9577</p></div>
   </div>
-</main>
+
+  <div class="section-block">
+    <h2 data-es="2. Información que recopilamos" data-en="2. Information We Collect">2. Información que recopilamos</h2>
+    <p data-es="Podemos recopilar los siguientes tipos de información personal:" data-en="We may collect the following types of personal information:">Podemos recopilar los siguientes tipos de información personal:</p>
+    <ul>
+      <li data-es="Nombre completo" data-en="Full name">Nombre completo</li>
+      <li data-es="Dirección de correo electrónico" data-en="Email address">Dirección de correo electrónico</li>
+      <li data-es="Número de teléfono / WhatsApp" data-en="Phone number / WhatsApp">Número de teléfono / WhatsApp</li>
+      <li data-es="Información sobre el servicio de interés" data-en="Information about the service of interest">Información sobre el servicio de interés</li>
+      <li data-es="Mensajes y consultas enviadas a través del formulario de contacto" data-en="Messages and inquiries sent through the contact form">Mensajes y consultas enviadas a través del formulario de contacto</li>
+      <li data-es="Datos de navegación (cookies de análisis, si aplica)" data-en="Browsing data (analytics cookies, if applicable)">Datos de navegación (cookies de análisis, si aplica)</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="3. Finalidad del tratamiento" data-en="3. Purpose of Processing">3. Finalidad del tratamiento</h2>
+    <p data-es="Los datos personales recopilados se utilizan para los siguientes fines:" data-en="Personal data collected is used for the following purposes:">Los datos personales recopilados se utilizan para los siguientes fines:</p>
+    <ul>
+      <li data-es="Responder consultas y solicitudes de cotización" data-en="Responding to inquiries and quote requests">Responder consultas y solicitudes de cotización</li>
+      <li data-es="Prestar los servicios contratados" data-en="Providing contracted services">Prestar los servicios contratados</li>
+      <li data-es="Enviar comunicaciones relacionadas con los servicios solicitados" data-en="Sending communications related to requested services">Enviar comunicaciones relacionadas con los servicios solicitados</li>
+      <li data-es="Mejorar la experiencia del usuario en el sitio web" data-en="Improving user experience on the website">Mejorar la experiencia del usuario en el sitio web</li>
+      <li data-es="Cumplir con obligaciones legales y contractuales" data-en="Complying with legal and contractual obligations">Cumplir con obligaciones legales y contractuales</li>
+    </ul>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="4. Base legal del tratamiento" data-en="4. Legal Basis for Processing">4. Base legal del tratamiento</h2>
+    <p data-es="El tratamiento de sus datos se basa en: (a) el consentimiento otorgado al completar el formulario de contacto; (b) la ejecución de un contrato de servicios; y (c) el interés legítimo en mejorar nuestros servicios."
+       data-en="Data processing is based on: (a) consent given when completing the contact form; (b) performance of a service contract; and (c) legitimate interest in improving our services.">
+      El tratamiento de sus datos se basa en: (a) el consentimiento otorgado al completar el formulario de contacto; (b) la ejecución de un contrato de servicios; y (c) el interés legítimo en mejorar nuestros servicios.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="5. Conservación de datos" data-en="5. Data Retention">5. Conservación de datos</h2>
+    <p data-es="Los datos personales se conservarán durante el tiempo necesario para cumplir con las finalidades para las que fueron recopilados, incluyendo el cumplimiento de requisitos legales, contables o de información. En general, los datos de contacto se mantendrán mientras exista una relación comercial activa y, posteriormente, por un máximo de 5 años."
+       data-en="Personal data will be retained for as long as necessary to fulfill the purposes for which it was collected, including compliance with legal, accounting, or reporting requirements. Generally, contact data will be kept while there is an active business relationship and, thereafter, for a maximum of 5 years.">
+      Los datos personales se conservarán durante el tiempo necesario para cumplir con las finalidades para las que fueron recopilados, incluyendo el cumplimiento de requisitos legales, contables o de información.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="6. Derechos del usuario" data-en="6. User Rights">6. Derechos del usuario</h2>
+    <p data-es="Usted tiene derecho a:" data-en="You have the right to:">Usted tiene derecho a:</p>
+    <ul>
+      <li data-es="Acceder a sus datos personales" data-en="Access your personal data">Acceder a sus datos personales</li>
+      <li data-es="Rectificar datos inexactos o incompletos" data-en="Rectify inaccurate or incomplete data">Rectificar datos inexactos o incompletos</li>
+      <li data-es="Solicitar la eliminación de sus datos" data-en="Request deletion of your data">Solicitar la eliminación de sus datos</li>
+      <li data-es="Oponerse al tratamiento de sus datos" data-en="Object to the processing of your data">Oponerse al tratamiento de sus datos</li>
+      <li data-es="Solicitar la limitación del tratamiento" data-en="Request restriction of processing">Solicitar la limitación del tratamiento</li>
+      <li data-es="Solicitar la portabilidad de sus datos" data-en="Request data portability">Solicitar la portabilidad de sus datos</li>
+    </ul>
+    <p style="margin-top:12px" data-es="Para ejercer cualquiera de estos derechos, contáctenos en: andricksantos1@gmail.com" data-en="To exercise any of these rights, contact us at: andricksantos1@gmail.com">Para ejercer cualquiera de estos derechos, contáctenos en: andricksantos1@gmail.com</p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="7. Seguridad de los datos" data-en="7. Data Security">7. Seguridad de los datos</h2>
+    <p data-es="Implementamos medidas técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, la alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro."
+       data-en="We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure or destruction. However, no method of Internet transmission or electronic storage is 100% secure.">
+      Implementamos medidas técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, la alteración, divulgación o destrucción.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="8. Cookies" data-en="8. Cookies">8. Cookies</h2>
+    <p data-es="Este sitio web puede utilizar cookies técnicas necesarias para su funcionamiento. No utilizamos cookies de seguimiento o publicidad de terceros sin su consentimiento previo."
+       data-en="This website may use technical cookies necessary for its operation. We do not use third-party tracking or advertising cookies without your prior consent.">
+      Este sitio web puede utilizar cookies técnicas necesarias para su funcionamiento. No utilizamos cookies de seguimiento o publicidad de terceros sin su consentimiento previo.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="9. Cambios en esta política" data-en="9. Changes to This Policy">9. Cambios en esta política</h2>
+    <p data-es="Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Los cambios serán publicados en esta página con la fecha de actualización. Le recomendamos revisar periódicamente esta política."
+       data-en="We reserve the right to update this Privacy Policy at any time. Changes will be posted on this page with the updated date. We recommend reviewing this policy periodically.">
+      Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Los cambios serán publicados en esta página con la fecha de actualización.
+    </p>
+  </div>
+
+  <div class="section-block">
+    <h2 data-es="10. Contacto" data-en="10. Contact">10. Contacto</h2>
+    <p data-es="Si tiene preguntas sobre esta Política de Privacidad, puede contactarnos:" data-en="If you have questions about this Privacy Policy, you can contact us:">Si tiene preguntas sobre esta Política de Privacidad, puede contactarnos:</p>
+    <div class="highlight-box">
+      <p>📧 andricksantos1@gmail.com<br>💬 WhatsApp: <a href="https://wa.me/50496679577" style="color:var(--primary)">+504 9667-9577</a><br>📍 San Pedro Sula, Cortés, Honduras</p>
+    </div>
+  </div>
+
+</div>
 
 <footer>
-  <div>© <script>document.write(new Date().getFullYear());</script> Andrik Santos ™</div>
+  <img src="assets2/img/logowhite.png" alt="Andrik Santos">
   <div class="footer-links">
-    <a href="index.html"><span data-lang-inline="es">Inicio</span><span data-lang-inline="en">Home</span></a>
-    <a href="privacy.html"><span data-lang-inline="es">Privacidad</span><span data-lang-inline="en">Privacy</span></a>
-    <a href="terms.html"><span data-lang-inline="es">Términos</span><span data-lang-inline="en">Terms</span></a>
-    <a href="mailto:andricksantos1@gmail.com">Email</a>
+    <a href="index.html" data-es="Inicio" data-en="Home">Inicio</a>
+    <a href="privacy.html" data-es="Privacidad" data-en="Privacy">Privacidad</a>
+    <a href="terms.html" data-es="Términos" data-en="Terms">Términos</a>
   </div>
+  <p>© <script>document.write(new Date().getFullYear());</script> Andrik Santos. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
 </footer>
 
 <script>
-  let isEn = false;
-  function toggleLang() {
-    isEn = !isEn;
-    document.body.classList.toggle('lang-en', isEn);
-    document.getElementById('lang-toggle').textContent = isEn ? 'ES' : 'EN';
-    document.getElementById('html-root').lang = isEn ? 'en' : 'es';
-  }
+let pLang='es';
+function detectLangP(){const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';const lang=navigator.language||'es';const latam=['America/Tegucigalda','America/Mexico_City','America/Bogota','America/Lima','America/Santiago','America/Buenos_Aires','America/Caracas','America/Guatemala','America/Costa_Rica','America/El_Salvador','America/Panama','America/Santo_Domingo','America/Havana','America/Puerto_Rico','America/Cancun','America/Sao_Paulo'];return(latam.some(t=>tz.includes(t))||lang.startsWith('es')||lang.startsWith('pt'))?'es':'en';}
+function applyLangP(lang){pLang=lang;document.documentElement.lang=lang;document.querySelectorAll('[data-es],[data-en]').forEach(el=>{const v=el.getAttribute('data-'+lang);if(v!==null)el.textContent=v;});document.getElementById('pflag').textContent=lang==='es'?'🇺🇸':'🇭🇳';document.getElementById('plabel').textContent=lang==='es'?'EN':'ES';}
+function toggleLangPriv(){applyLangP(pLang==='es'?'en':'es');}
+document.addEventListener('DOMContentLoaded',()=>applyLangP(detectLangP()));
 </script>
 </body>
 </html>
