@@ -58,17 +58,19 @@
   <style>
     /* === BRAND PALETTE === */
     :root {
-      --primary:   #0A3A73;
-      --secondary: #06254A;
-      --accent:    #5D726B;
-      --support:   #6C7A89;
-      --bg-alt:    #E9EDF2;
+      --primary:   #6366F1;
+      --secondary: #0F172A;
+      --accent:    #F59E0B;
+      --support:   #94A3B8;
+      --bg-alt:    #F1F5F9;
       --bg-main:   #FFFFFF;
-      --text-main: #1F2937;
-      --text-muted:#6C7A89;
-      --text-light:#9EAAB8;
-      --border:    #D8DDE5;
-      --primary-hover: #0c4490;
+      --text-main: #0F172A;
+      --text-muted:#64748B;
+      --text-light:#94A3B8;
+      --border:    #E2E8F0;
+      --primary-hover: #4F46E5;
+      --gold: #F59E0B;
+      --gold-dark: #D97706;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
@@ -87,7 +89,7 @@
     /* === SCROLL PROGRESS === */
     .scroll-bar {
       position: fixed; top: 0; left: 0; z-index: 2000;
-      height: 3px; background: var(--primary); width: 0%;
+      height: 3px; background: linear-gradient(90deg, var(--accent), var(--primary)); width: 0%;
       transition: width 0.1s linear;
     }
 
@@ -137,17 +139,25 @@
     .btn-lang:hover { background: rgba(255,255,255,0.18); }
 
     .btn-nav-cta {
-      background: var(--primary);
-      color: #fff;
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: #0F172A;
       font-family: 'Montserrat', sans-serif;
-      font-size: 12px; font-weight: 700;
+      font-size: 12px; font-weight: 800;
       padding: 10px 20px; border-radius: 4px;
       letter-spacing: 0.07em; text-transform: uppercase;
-      transition: background 0.2s;
+      transition: all 0.25s;
       border: none; cursor: pointer;
       white-space: nowrap;
+      box-shadow: 0 4px 14px rgba(245,158,11,0.4);
+      position: relative; overflow: hidden;
     }
-    .btn-nav-cta:hover { background: var(--primary-hover); }
+    .btn-nav-cta::after {
+      content: ''; position: absolute;
+      top: -50%; left: -75%; width: 50%; height: 200%;
+      background: rgba(255,255,255,0.25); transform: skewX(-15deg);
+      animation: shimmer 3s ease infinite;
+    }
+    .btn-nav-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(245,158,11,0.6); }
 
     .hamburger {
       display: none; flex-direction: column; gap: 5px;
@@ -171,39 +181,75 @@
     /* === BUTTONS === */
     .btn-primary {
       display: inline-flex; align-items: center; gap: 8px;
-      background: var(--primary); color: #fff;
+      background: linear-gradient(135deg, var(--primary), #8B5CF6);
+      color: #fff;
       font-family: 'Montserrat', sans-serif;
       font-size: 13px; font-weight: 700;
-      padding: 13px 26px; border-radius: 4px;
+      padding: 14px 28px; border-radius: 6px;
       text-transform: uppercase; letter-spacing: 0.07em;
       border: none; cursor: pointer;
-      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 15px rgba(99,102,241,0.35);
+      position: relative; overflow: hidden;
     }
-    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(10,58,115,0.3); }
+    .btn-primary::after {
+      content: ''; position: absolute;
+      top: -50%; left: -75%; width: 50%; height: 200%;
+      background: rgba(255,255,255,0.18); transform: skewX(-15deg);
+      animation: shimmer 3.5s ease infinite;
+    }
+    .btn-primary:hover { background: linear-gradient(135deg, var(--primary-hover), #7C3AED); transform: translateY(-3px); box-shadow: 0 10px 28px rgba(99,102,241,0.5); }
+
+    .btn-gold {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: #0F172A;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px; font-weight: 800;
+      padding: 14px 28px; border-radius: 6px;
+      text-transform: uppercase; letter-spacing: 0.07em;
+      border: none; cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 18px rgba(245,158,11,0.45);
+      position: relative; overflow: hidden;
+    }
+    .btn-gold::after {
+      content: ''; position: absolute;
+      top: -50%; left: -75%; width: 50%; height: 200%;
+      background: rgba(255,255,255,0.3); transform: skewX(-15deg);
+      animation: shimmer 2.8s ease infinite;
+    }
+    .btn-gold:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(245,158,11,0.65); }
 
     .btn-secondary {
       display: inline-flex; align-items: center; gap: 8px;
       background: transparent; color: var(--primary);
       font-family: 'Montserrat', sans-serif;
       font-size: 13px; font-weight: 700;
-      padding: 12px 26px; border-radius: 4px;
+      padding: 12px 26px; border-radius: 6px;
       border: 2px solid var(--primary);
       text-transform: uppercase; letter-spacing: 0.07em;
-      cursor: pointer; transition: all 0.2s;
+      cursor: pointer; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
-    .btn-secondary:hover { background: var(--primary); color: #fff; transform: translateY(-2px); }
+    .btn-secondary:hover { background: linear-gradient(135deg, var(--primary), #8B5CF6); color: #fff; border-color: transparent; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(99,102,241,0.35); }
 
     .btn-primary-outline {
       display: inline-flex; align-items: center; gap: 8px;
       background: transparent; color: #fff;
       font-family: 'Montserrat', sans-serif;
       font-size: 13px; font-weight: 700;
-      padding: 12px 26px; border-radius: 4px;
-      border: 2px solid rgba(255,255,255,0.5);
+      padding: 12px 26px; border-radius: 6px;
+      border: 2px solid rgba(255,255,255,0.4);
       text-transform: uppercase; letter-spacing: 0.07em;
-      cursor: pointer; transition: all 0.2s;
+      cursor: pointer; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
-    .btn-primary-outline:hover { border-color: #fff; background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+    .btn-primary-outline:hover { border-color: #fff; background: rgba(255,255,255,0.12); transform: translateY(-2px); }
+
+    @keyframes shimmer {
+      0% { left: -75%; opacity: 0; }
+      20% { opacity: 1; }
+      100% { left: 125%; opacity: 0; }
+    }
 
     /* === SECTION COMMONS === */
     section { padding: 88px 5%; }
@@ -230,7 +276,7 @@
     /* === HERO === */
     #hero {
       min-height: 100vh;
-      background: var(--secondary);
+      background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 60%, #0F172A 100%);
       display: flex; align-items: center;
       padding: 100px 5% 60px;
       position: relative; overflow: hidden;
@@ -238,14 +284,41 @@
     .hero-bg {
       position: absolute; inset: 0; pointer-events: none;
       background:
-        radial-gradient(ellipse 60% 70% at 80% 50%, rgba(10,58,115,0.35) 0%, transparent 70%),
-        radial-gradient(ellipse 40% 40% at 10% 80%, rgba(93,114,107,0.12) 0%, transparent 60%);
+        radial-gradient(ellipse 55% 60% at 85% 45%, rgba(99,102,241,0.22) 0%, transparent 65%),
+        radial-gradient(ellipse 40% 45% at 10% 75%, rgba(245,158,11,0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 30% 35% at 50% 10%, rgba(139,92,246,0.12) 0%, transparent 60%);
     }
     .hero-grid-lines {
       position: absolute; inset: 0; pointer-events: none;
       background-image:
-        repeating-linear-gradient(0deg, transparent, transparent 70px, rgba(255,255,255,0.025) 70px, rgba(255,255,255,0.025) 71px),
-        repeating-linear-gradient(90deg, transparent, transparent 70px, rgba(255,255,255,0.025) 70px, rgba(255,255,255,0.025) 71px);
+        repeating-linear-gradient(0deg, transparent, transparent 70px, rgba(255,255,255,0.018) 70px, rgba(255,255,255,0.018) 71px),
+        repeating-linear-gradient(90deg, transparent, transparent 70px, rgba(255,255,255,0.018) 70px, rgba(255,255,255,0.018) 71px);
+    }
+    .hero-orb {
+      position: absolute; border-radius: 50%; pointer-events: none;
+      filter: blur(70px); opacity: 0.55;
+    }
+    .hero-orb-1 {
+      width: 420px; height: 420px;
+      background: radial-gradient(circle, rgba(99,102,241,0.5), transparent 70%);
+      top: -80px; right: 5%;
+      animation: floatOrb 9s ease-in-out infinite;
+    }
+    .hero-orb-2 {
+      width: 280px; height: 280px;
+      background: radial-gradient(circle, rgba(245,158,11,0.35), transparent 70%);
+      bottom: 10%; left: 2%;
+      animation: floatOrb 12s ease-in-out infinite reverse;
+    }
+    .hero-orb-3 {
+      width: 200px; height: 200px;
+      background: radial-gradient(circle, rgba(139,92,246,0.4), transparent 70%);
+      top: 30%; right: 30%;
+      animation: floatOrb 7s ease-in-out infinite 2s;
+    }
+    @keyframes floatOrb {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-24px) scale(1.06); }
     }
 
     .hero-content { position: relative; z-index: 2; max-width: 680px; }
@@ -294,7 +367,7 @@
       padding-top: 40px;
       border-top: 1px solid rgba(255,255,255,0.1);
     }
-    .stat-num { font-size: 30px; font-weight: 800; color: #fff; }
+    .stat-num { font-size: 32px; font-weight: 800; color: var(--gold); }
     .stat-label { color: rgba(255,255,255,0.45); font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
 
     @keyframes fadeUp {
@@ -440,14 +513,16 @@
     .plan-features li::before { content: '•'; color: var(--primary); font-size: 14px; flex-shrink: 0; line-height: 1.4; }
     .btn-plan {
       display: block; text-align: center;
-      background: var(--secondary); color: #fff;
+      background: linear-gradient(135deg, var(--secondary), #1E293B); color: #fff;
       font-family: 'Montserrat', sans-serif; font-weight: 700;
       font-size: 12px; letter-spacing: 0.07em; text-transform: uppercase;
-      padding: 11px 16px; border-radius: 4px; transition: background 0.2s;
+      padding: 12px 16px; border-radius: 6px;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative; overflow: hidden;
     }
-    .btn-plan:hover { background: var(--primary); }
-    .plan-card.best .btn-plan { background: var(--primary); }
-    .plan-card.best .btn-plan:hover { background: var(--secondary); }
+    .btn-plan:hover { background: linear-gradient(135deg, var(--primary), #8B5CF6); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(99,102,241,0.35); }
+    .plan-card.best .btn-plan { background: linear-gradient(135deg, var(--primary), #8B5CF6); box-shadow: 0 4px 14px rgba(99,102,241,0.35); }
+    .plan-card.best .btn-plan:hover { background: linear-gradient(135deg, var(--gold), var(--gold-dark)); box-shadow: 0 8px 22px rgba(245,158,11,0.5); }
 
     /* === EVENTS === */
     #events { background: var(--secondary); }
@@ -558,20 +633,28 @@
 
     /* === CTA BANNER === */
     #cta-band {
-      background: var(--primary); padding: 80px 5%; text-align: center;
+      background: linear-gradient(135deg, #1E1B4B 0%, #4F46E5 40%, #7C3AED 100%);
+      padding: 96px 5%; text-align: center;
+      position: relative; overflow: hidden;
     }
-    #cta-band .section-tag { color: rgba(255,255,255,0.7); justify-content: center; }
-    #cta-band .section-tag::before { background: rgba(255,255,255,0.5); }
+    #cta-band::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 80% at 50% 50%, rgba(245,158,11,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    #cta-band .section-tag { color: rgba(255,255,255,0.75); justify-content: center; }
+    #cta-band .section-tag::before { background: var(--gold); }
     #cta-band .section-h2 { color: #fff; }
-    #cta-band .section-desc { color: rgba(255,255,255,0.7); margin: 0 auto 32px; }
-    .cta-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    #cta-band .section-desc { color: rgba(255,255,255,0.72); margin: 0 auto 36px; }
+    .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
     .btn-white {
       background: #fff; color: var(--primary);
-      font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700;
-      padding: 13px 26px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.07em;
-      border: none; cursor: pointer; transition: all 0.2s;
+      font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800;
+      padding: 14px 30px; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.07em;
+      border: none; cursor: pointer; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     }
-    .btn-white:hover { background: var(--bg-alt); transform: translateY(-2px); }
+    .btn-white:hover { background: var(--gold); color: #0F172A; transform: translateY(-3px); box-shadow: 0 10px 28px rgba(245,158,11,0.5); }
 
     /* === CONTACT === */
     #contact { background: var(--bg-main); }
@@ -633,22 +716,34 @@
     .footer-bottom a:hover { color: rgba(255,255,255,0.7); }
 
     /* === REVEAL === */
-    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1); }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
     /* === WA FLOAT === */
     .wa-float {
       position: fixed; bottom: 26px; right: 26px; z-index: 900;
-      width: 54px; height: 54px; background: #25D366; border-radius: 50%;
+      width: 58px; height: 58px;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 6px 22px rgba(37,211,102,0.45);
-      font-size: 24px; text-decoration: none;
-      animation: waPulse 3s ease infinite; transition: transform 0.3s;
+      box-shadow: 0 6px 28px rgba(37,211,102,0.55);
+      font-size: 26px; text-decoration: none;
+      animation: waPulse 2.5s ease infinite; transition: transform 0.3s, box-shadow 0.3s;
     }
-    .wa-float:hover { transform: scale(1.1); }
+    .wa-float::before {
+      content: ''; position: absolute;
+      width: 58px; height: 58px; border-radius: 50%;
+      border: 2px solid rgba(37,211,102,0.5);
+      animation: waRing 2.5s ease infinite;
+    }
+    .wa-float:hover { transform: scale(1.12); box-shadow: 0 10px 36px rgba(37,211,102,0.7); }
     @keyframes waPulse {
-      0%,100%{box-shadow:0 6px 22px rgba(37,211,102,0.45)}
-      50%{box-shadow:0 6px 38px rgba(37,211,102,0.7)}
+      0%,100% { box-shadow: 0 6px 28px rgba(37,211,102,0.55); }
+      50% { box-shadow: 0 6px 42px rgba(37,211,102,0.8); }
+    }
+    @keyframes waRing {
+      0% { transform: scale(1); opacity: 0.8; }
+      100% { transform: scale(1.7); opacity: 0; }
     }
 
     /* === RESPONSIVE === */
@@ -682,8 +777,8 @@
   })(window,document,'script','dataLayer','GTM-5B3HBLJW');</script>
 <!-- End Google Tag Manager -->
 
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-NS99JL93ZV"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-NS99JL93ZV",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-NS99JL93ZV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-NS99JL93ZV"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-NS99JL93ZV",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-NS99JL93ZV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
 
 </head>
 <body>
@@ -730,6 +825,9 @@
 <section id="hero">
   <div class="hero-bg"></div>
   <div class="hero-grid-lines"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
   <div class="hero-content">
     <div class="hero-eyebrow">
       <span class="hero-eyebrow-dot"></span>
@@ -745,9 +843,9 @@
       <span data-es=" Máster en Marketing y Dirección Comercial. Soluciones integrales en comunicación, diseño y logística para hacer crecer tu empresa." data-en=" Master in Marketing & Commercial Management. Comprehensive solutions in communication, design, and logistics to grow your business."> Máster en Marketing y Dirección Comercial. Soluciones integrales en comunicación, diseño y logística para hacer crecer tu empresa.</span>
     </p>
     <div class="hero-btns">
-      <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+conocer+tus+servicios" class="btn-primary" target="_blank"
-         data-es="CONOCE MÁS" data-en="LEARN MORE">CONOCE MÁS</a>
-      <a href="#services" class="btn-primary-outline" data-es="NUESTROS SERVICIOS" data-en="OUR SERVICES">NUESTROS SERVICIOS</a>
+      <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+conocer+tus+servicios" class="btn-gold" target="_blank"
+         data-es="💬 COTIZA GRATIS →" data-en="💬 GET FREE QUOTE →">💬 COTIZA GRATIS →</a>
+      <a href="#services" class="btn-primary-outline" data-es="VER SERVICIOS" data-en="OUR SERVICES">VER SERVICIOS</a>
     </div>
     <div class="hero-stats">
       <div>
@@ -851,8 +949,8 @@
           <span class="tag">Branding</span>
         </div>
         <div style="display:flex;gap:12px;flex-wrap:wrap">
-          <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+trabajar+contigo" class="btn-primary" target="_blank"
-             data-es="CONVERSEMOS →" data-en="LET'S TALK →">CONVERSEMOS →</a>
+          <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+trabajar+contigo" class="btn-gold" target="_blank"
+             data-es="💬 CONVERSEMOS →" data-en="💬 LET'S TALK →">💬 CONVERSEMOS →</a>
           <a href="https://www.linkedin.com/in/andriksantos/" class="btn-secondary" target="_blank"
              data-es="VER LINKEDIN" data-en="VIEW LINKEDIN">VER LINKEDIN</a>
         </div>
@@ -1068,8 +1166,8 @@
           Cuéntanos tu visión y te presentamos una propuesta personalizada sin compromiso.
         </p>
       </div>
-      <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+organizar+un+evento" class="btn-white" target="_blank"
-         data-es="COTIZAR MI EVENTO →" data-en="GET EVENT QUOTE →">COTIZAR MI EVENTO →</a>
+      <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+organizar+un+evento" class="btn-gold" target="_blank"
+         data-es="🎉 COTIZAR MI EVENTO →" data-en="🎉 GET EVENT QUOTE →">🎉 COTIZAR MI EVENTO →</a>
     </div>
   </div>
 </section>
@@ -1224,8 +1322,8 @@
       Agenda una consulta gratuita y descubre cómo podemos transformar tu marca, optimizar tus compras y crear experiencias memorables.
     </p>
     <div class="cta-btns">
-      <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+una+consulta+gratuita" class="btn-white" target="_blank"
-         data-es="CONSULTA GRATUITA →" data-en="FREE CONSULTATION →">CONSULTA GRATUITA →</a>
+      <a href="https://api.whatsapp.com/send?phone=50496679577&text=Hola%2C+quiero+una+consulta+gratuita" class="btn-gold" target="_blank"
+         data-es="💬 CONSULTA GRATUITA →" data-en="💬 FREE CONSULTATION →">💬 CONSULTA GRATUITA →</a>
       <a href="#contact" class="btn-primary-outline" data-es="ENVIAR MENSAJE" data-en="SEND MESSAGE">ENVIAR MENSAJE</a>
     </div>
   </div>
@@ -1276,8 +1374,8 @@
               </select>
             </div>
             <div class="form-group"><label data-es="MENSAJE *" data-en="MESSAGE *">MENSAJE *</label><textarea required placeholder="Cuéntanos sobre tu proyecto..."></textarea></div>
-            <button type="submit" class="btn-primary" style="width:100%;justify-content:center"
-                    data-es="ENVIAR MENSAJE →" data-en="SEND MESSAGE →">ENVIAR MENSAJE →</button>
+            <button type="submit" class="btn-gold" style="width:100%;justify-content:center"
+                    data-es="📨 ENVIAR MENSAJE →" data-en="📨 SEND MESSAGE →">📨 ENVIAR MENSAJE →</button>
           </form>
         </div>
       </div>
@@ -1376,16 +1474,36 @@ function toggleFaq(el){
   document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
   if(!was)item.classList.add('open');
 }
-function handleForm(e){
+async function handleForm(e){
   e.preventDefault();
   const f=document.getElementById('contactForm');
-  document.getElementById('formSuccess').style.display='block';
-  f.style.display='none';
+  const btn=f.querySelector('button[type=submit]');
+  const origTxt=btn.textContent;
+  btn.disabled=true;
+  btn.textContent='Enviando...';
   const name=f.querySelector('input[type=text]').value;
+  const email=f.querySelector('input[type=email]').value;
   const svc=f.querySelector('select').value;
   const msg=f.querySelector('textarea').value;
-  const txt=encodeURIComponent(`Hola!\n\nNombre: ${name}\nServicio: ${svc}\n\nMensaje: ${msg}`);
-  setTimeout(()=>window.open(`https://api.whatsapp.com/send?phone=50496679577&text=${txt}`,'_blank'),800);
+  try{
+    await fetch('https://formsubmit.co/ajax/andricksantos1@gmail.com',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify({
+        nombre:name,
+        email:email,
+        servicio:svc,
+        mensaje:msg,
+        _subject:`Nuevo contacto de ${name} — Andrik Santos`,
+        _template:'table',
+        _captcha:'false'
+      })
+    });
+  }catch(_){}
+  document.getElementById('formSuccess').style.display='block';
+  f.style.display='none';
+  const txt=encodeURIComponent(`Hola Andrik!\n\nNombre: ${name}\nEmail: ${email}\nServicio: ${svc}\n\nMensaje: ${msg}`);
+  setTimeout(()=>window.open(`https://api.whatsapp.com/send?phone=50496679577&text=${txt}`,'_blank'),1000);
 }
 window.addEventListener('scroll',()=>{
   const s=window.scrollY,m=document.body.scrollHeight-window.innerHeight;
