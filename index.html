@@ -123,6 +123,41 @@
     .nav-links a:hover { color: #fff; }
     .nav-links a:hover::after { transform: scaleX(1); }
 
+    /* === NAV DROPDOWN (Servicios) === */
+    .nav-item-dropdown { position: relative; }
+    .nav-dropdown-menu {
+      position: absolute; top: 100%; left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      background: var(--secondary);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      min-width: 230px;
+      padding: 8px;
+      margin-top: 14px;
+      list-style: none;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+      box-shadow: 0 16px 40px rgba(6,37,74,0.35);
+      z-index: 1001;
+    }
+    .nav-item-dropdown:hover .nav-dropdown-menu,
+    .nav-item-dropdown:focus-within .nav-dropdown-menu {
+      opacity: 1; visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+    .nav-dropdown-menu li a {
+      display: block;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 500;
+      text-transform: none;
+      letter-spacing: normal;
+      white-space: nowrap;
+    }
+    .nav-dropdown-menu li a::after { display: none; }
+    .nav-dropdown-menu li a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+
     .nav-right { display: flex; align-items: center; gap: 12px; }
 
     .btn-lang {
@@ -440,6 +475,7 @@
     .services-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
 
     .svc-card {
+      scroll-margin-top: 88px;
       background: var(--bg-main);
       border: 1.5px solid var(--border);
       border-radius: 6px; padding: 32px 28px;
@@ -796,7 +832,16 @@
   </a>
   <ul class="nav-links">
     <li><a href="#about" data-es="Sobre mí" data-en="About">Sobre mí</a></li>
-    <li><a href="#services" data-es="Servicios" data-en="Services">Servicios</a></li>
+    <li class="nav-item-dropdown">
+      <a href="#services" data-es="Servicios ▾" data-en="Services ▾">Servicios ▾</a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="#svc-community" data-es="Community Manager" data-en="Community Manager">Community Manager</a></li>
+        <li><a href="#svc-marketing" data-es="Marketing en General" data-en="Marketing & Strategy">Marketing en General</a></li>
+        <li><a href="#svc-diseno" data-es="Diseño Gráfico" data-en="Graphic Design">Diseño Gráfico</a></li>
+        <li><a href="#purchases" data-es="Servicio de Compras" data-en="Purchasing Service">Servicio de Compras</a></li>
+        <li><a href="#events" data-es="Organización de Eventos" data-en="Event Organization">Organización de Eventos</a></li>
+      </ul>
+    </li>
     <li><a href="#events" data-es="Eventos" data-en="Events">Eventos</a></li>
     <li><a href="#purchases" data-es="Compras" data-en="Purchasing">Compras</a></li>
     <li><a href="#faq" data-es="FAQ" data-en="FAQ">FAQ</a></li>
@@ -978,7 +1023,7 @@
     </div>
 
     <div class="services-grid">
-      <div class="svc-card reveal">
+      <div class="svc-card reveal" id="svc-community">
         <div class="svc-icon">👥</div>
         <div class="svc-title" data-es="Community Manager" data-en="Community Manager">Community Manager</div>
         <div class="svc-desc" data-es="Construimos comunidades que generan conexiones y resultados reales para tu marca." data-en="We build communities that create real connections and results for your brand.">Construimos comunidades que generan conexiones y resultados reales para tu marca.</div>
@@ -993,7 +1038,7 @@
            data-es="Solicitar servicio →" data-en="Request service →">Solicitar servicio →</a>
       </div>
 
-      <div class="svc-card featured reveal" style="transition-delay:0.1s">
+      <div class="svc-card featured reveal" style="transition-delay:0.1s" id="svc-marketing">
         <div class="svc-icon">📈</div>
         <div class="svc-title" data-es="Marketing en General" data-en="Marketing & Strategy">Marketing en General</div>
         <div class="svc-desc" data-es="Estrategias que generan resultados reales. Hacemos crecer tu negocio con creatividad y datos." data-en="Strategies that generate real results. We grow your business with creativity and data.">Estrategias que generan resultados reales. Hacemos crecer tu negocio con creatividad y datos.</div>
@@ -1008,7 +1053,7 @@
            data-es="Solicitar servicio →" data-en="Request service →">Solicitar servicio →</a>
       </div>
 
-      <div class="svc-card reveal" style="transition-delay:0.2s">
+      <div class="svc-card reveal" style="transition-delay:0.2s" id="svc-diseno">
         <div class="svc-icon">🎨</div>
         <div class="svc-title" data-es="Diseño Gráfico" data-en="Graphic Design">Diseño Gráfico</div>
         <div class="svc-desc" data-es="Diseñamos ideas que comunican y destacan. Identidad visual poderosa para tu marca." data-en="We design ideas that communicate and stand out. Powerful visual identity for your brand.">Diseñamos ideas que comunican y destacan. Identidad visual poderosa para tu marca.</div>
