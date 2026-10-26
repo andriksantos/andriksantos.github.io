@@ -1,0 +1,28 @@
+{
+  "name": "Andrik Santos — Soluciones para negocios",
+  "short_name": "Andrik Santos",
+  "description": "Páginas web, marketing digital, diseño gráfico, compras internacionales y eventos para negocios en Honduras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#011933",
+  "lang": "es-HN",
+  "icons": [
+    {
+      "src": "/assets2/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets2/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets2/img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
