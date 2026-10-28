@@ -4,6 +4,17 @@
   var d = document, root = d.documentElement;
   root.classList.add('js');
   var WA = '50496679577';
+  var EN = (root.getAttribute('data-lang') || root.lang || 'es').slice(0, 2) === 'en';
+  function tr(es, en) { return EN ? en : es; }
+
+  /* Selector de idioma: recuerda la elección del visitante */
+  d.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('[data-setlang]');
+    if (!a) return;
+    try { localStorage.setItem('lang', a.getAttribute('data-setlang')); } catch (_) {}
+    track('language_switch', { to: a.getAttribute('data-setlang') });
+    if (location.hash) a.setAttribute('href', a.getAttribute('href').split('#')[0] + location.hash);
+  });
 
   function track(name, params) {
     try { if (window.gtag) window.gtag('event', name, params || {}); } catch (_) {}
@@ -85,22 +96,22 @@
       if (needs.length) data.necesidad = needs.join(', ');
       if (form.hasAttribute('data-require-need') && !needs.length) {
         var g = form.querySelector('.chips'); if (g) { g.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
-        alertInline(form, 'Elige al menos una opción para orientarte mejor.');
+        alertInline(form, tr('Elige al menos una opción para orientarte mejor.', 'Pick at least one option so I can guide you.'));
         return;
       }
       var missing = Array.prototype.filter.call(form.querySelectorAll('[required]'), function (el) { return !el.value.trim(); });
-      if (missing.length) { missing[0].focus(); alertInline(form, 'Escribe tu nombre y tu WhatsApp para poder responderte.'); return; }
+      if (missing.length) { missing[0].focus(); alertInline(form, tr('Escribe tu nombre y tu WhatsApp para poder responderte.', 'Enter your name and WhatsApp so I can reply.')); return; }
       var btn = form.querySelector('button[type="submit"]');
-      if (btn) { btn.disabled = true; btn.dataset.label = btn.innerHTML; btn.textContent = 'Enviando…'; }
+      if (btn) { btn.disabled = true; btn.dataset.label = btn.innerHTML; btn.textContent = tr('Enviando…', 'Sending…'); }
 
-      var lines = ['Hola Andrik, vengo de andriksantos.com.'];
-      if (data.nombre) lines.push('Soy ' + data.nombre + (data.empresa ? ' de ' + data.empresa : '') + '.');
-      if (data.necesidad) lines.push('Necesito: ' + data.necesidad + '.');
-      if (data.servicio) lines.push('Servicio: ' + data.servicio + '.');
+      var lines = [tr('Hola Andrik, vengo de andriksantos.com.', 'Hi Andrik, I found you on andriksantos.com.')];
+      if (data.nombre) lines.push(tr('Soy ', 'I am ') + data.nombre + (data.empresa ? tr(' de ', ' from ') + data.empresa : '') + '.');
+      if (data.necesidad) lines.push(tr('Necesito: ', 'I need: ') + data.necesidad + '.');
+      if (data.servicio) lines.push(tr('Servicio: ', 'Service: ') + data.servicio + '.');
       if (data.mensaje) lines.push(data.mensaje);
       var waText = encodeURIComponent(lines.join('\n'));
 
-      var payload = Object.assign({ _subject: 'Nuevo cliente potencial — andriksantos.com', _template: 'table', pagina: location.href }, data);
+      var payload = Object.assign({ _subject: tr('Nuevo cliente potencial — andriksantos.com', 'Nuevo cliente potencial (INGLÉS) — andriksantos.com'), idioma: EN ? 'en' : 'es', _template: 'table', pagina: location.href }, data);
       fetch('https://formsubmit.co/ajax/andricksantos1@gmail.com', {
         method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(payload)
       }).catch(function () {}).finally(function () {
